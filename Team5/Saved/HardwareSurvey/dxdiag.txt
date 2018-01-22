@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/22/2018, 16:22:53
-             Machine name: TU45342
-               Machine Id: {0748B54D-A7E6-48FA-9362-D1D524AAC5DD}
+      Time of this report: 1/22/2018, 19:34:19
+             Machine name: TU45340
+               Machine Id: {ABCAED98-EF45-4750-94BA-58BDF07D1677}
          Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171129-2100)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 6764MB used, 30783MB available
+                Page File: 8035MB used, 29512MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -291,24 +291,6 @@ Vendor/Product ID: 0x03F0, 0x034A
 Vendor/Product ID: 0x03F0, 0x034A
         FF Driver: n/a
 
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
-        FF Driver: n/a
-
       Device Name: Controller (XBOX 360 For Windows)
          Attached: 1
     Controller ID: 0x0
@@ -326,31 +308,11 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/16/2016 11:41:55, 535904 bytes
 | 
-+-+ Wacom Tablet
-| | Vendor/Product ID: 0x056A, 0x0303
-| | Location: Port_#0003.Hub_#0003
-| | Matching Device ID: USB\VID_056A&PID_0303
-| | Upper Filters: mshidkmdf
-| | Service: WacHidRouterPro
-| | Driver: wachidrouter.sys, 4/28/2017 23:21:30, 122512 bytes
-| | Driver: wdfcoinstaller01011.dll, 4/28/2017 23:21:31, 1804688 bytes
-| | 
-| +-+ HID-Compliant Mouse
-| | | Vendor/Product ID: 0x056A, 0x0303
-| | | Matching Device ID: HID\VID_056A&PID_0303&Col01
-| | | Upper Filters: wacomrouterfilter
-| | | Service: mouhid
-| | | Driver: wacomrouterfilter.sys, 4/11/2017 18:23:37, 24040 bytes
-| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
-| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
-| | | Driver: wdfcoinstaller01009.dll, 12/11/2012 22:12:00, 1721576 bytes
-| | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x034A
 | | Location: Port_#0011.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
-| | OEMData: 00 00 00 10 03 00 00 00
 | | Driver: usbccgp.sys, 10/9/2017 02:30:18, 169304 bytes
 | | 
 | +-+ USB Input Device
@@ -358,7 +320,6 @@ USB Devices
 | | | Location: 0000.0014.0000.011.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
-| | | OEMData: 00 00 00 10 03 00 00 00
 | | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
 | | | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
 | | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
@@ -367,7 +328,6 @@ USB Devices
 | | | | Vendor/Product ID: 0x03F0, 0x034A
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
-| | | | OEMData: 00 00 00 10 03 00 00 00
 | | | | Driver: kbdhid.sys, 9/15/2016 16:43:23, 39424 bytes
 | | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
 | | 
@@ -399,22 +359,16 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 98.8 GB
+ Free Space: 170.9 GB
 Total Space: 487.9 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1903.3 GB
+ Free Space: 1907.5 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
-
-      Drive: F:
- Free Space: 871.5 GB
-Total Space: 953.9 GB
-File System: NTFS
-      Model: Seagate Expansion SCSI Disk Device
 
       Drive: E:
       Model: hp BDRW   UJ272
@@ -1390,56 +1344,56 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 129229839509, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 116443612856, type 5
+Event Name: BEX64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 3dsmax.exe
-P2: 19.3.533.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
+P1: svchost.exe_PcaSvc
+P2: 10.0.14393.0
+P3: 57899b1c
+P4: ntdll.dll
+P5: 10.0.14393.1715
+P6: 59b0d03e
+P7: 00000000000e3ff1
+P8: c0000409
+P9: 0000000000000023
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 129429132620, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket , type 0
+Event Name: BEX64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Photoshop.exe
-P2: 18.1.1.252
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
+P1: svchost.exe_PcaSvc
+P2: 10.0.14393.0
+P3: 57899b1c
+P4: ntdll.dll
+P5: 10.0.14393.1715
+P6: 59b0d03e
+P7: 00000000000e3ff1
+P8: c0000409
+P9: 0000000000000023
 P10: 
 
 
 +++ WER2 +++:
-Fault bucket 129466534049, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Adobe Premiere Pro.exe
-P2: 11.1.2.22
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
+P1: x64
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
 P7: 
 P8: 
 P9: 
@@ -1454,7 +1408,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1532&PID_0504&REV_1022&MI_03&Col01
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
 P3: 
 P4: 
 P5: 
@@ -1466,18 +1420,18 @@ P10:
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Fault bucket 129520322746, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_1532&PID_0504&REV_1022&MI_03
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: UnrealLightmass.exe
+P2: 4.16.3.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1486,32 +1440,13 @@ P10:
 
 +++ WER5 +++:
 Fault bucket , type 0
-Event Name: PnPGenericDriverFound
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: x64
-P2: USB\VID_1532&PID_0504&REV_1022&MI_03
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket , type 0
 Event Name: PnPRequestAdditionalSoftware
 Response: Not available
 Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1532&PID_0504&REV_1022&MI_03&Col02
+P2: USB\VID_1E7D&PID_2C2E&REV_0035
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1522,7 +1457,7 @@ P9:
 P10: 
 
 
-+++ WER7 +++:
++++ WER6 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1530,11 +1465,30 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1532&PID_0504&REV_1022&MI_03&Col02
+P2: USB\VID_1E7D&PID_2C2E&REV_0035
 P3: 
 P4: 
 P5: 
 P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
 P7: 
 P8: 
 P9: 
@@ -1549,7 +1503,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_1532&PID_0504&REV_1022&MI_00
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
 P3: 
 P4: 
 P5: 
@@ -1562,17 +1516,17 @@ P10:
 
 +++ WER9 +++:
 Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Event Name: PnPRequestAdditionalSoftware
 Response: Not available
 Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1532&PID_0504&REV_1022&MI_03&Col01
-P3: 
-P4: 
-P5: 
-P6: 
+P2: USB\VID_1E7D&PID_2C2E&REV_0035
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
 P7: 
 P8: 
 P9: 
