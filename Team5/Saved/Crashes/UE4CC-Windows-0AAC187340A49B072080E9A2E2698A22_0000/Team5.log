@@ -1,0 +1,542 @@
+﻿Log file open, 01/22/18 14:14:39
+LogInit:Display: Running engine for game: Team5
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1560728953) SRandInit(1560728953).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.085189
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.22-14.14.39:587][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-14.14.39:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.22-14.14.39:600][  0]LogInit: Computer: DESKTOP-M7J346A
+[2018.01.22-14.14.39:600][  0]LogInit: User: Harry
+[2018.01.22-14.14.39:600][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.22-14.14.39:600][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2018.01.22-14.14.39:600][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.22-14.14.39:600][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.22-14.14.39:600][  0]LogMemory: Process Physical Memory: 274.79 MB used, 274.79 MB peak
+[2018.01.22-14.14.39:600][  0]LogMemory: Process Virtual Memory: 272.87 MB used, 272.87 MB peak
+[2018.01.22-14.14.39:600][  0]LogMemory: Physical Memory: 5237.70 MB used,  11064.43 MB free, 16302.13 MB total
+[2018.01.22-14.14.39:600][  0]LogMemory: Virtual Memory: 683.81 MB used,  11064.43 MB free, 134217728.00 MB total
+[2018.01.22-14.14.39:653][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.22-14.14.39:653][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.22-14.14.39:655][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.22-14.14.40:361][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.22-14.14.40:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.22-14.14.40:404][  0]LogD3D11RHI:       8088/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.22-14.14.40:406][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.22-14.14.40:406][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.22-14.14.40:406][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.22-14.14.40:412][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.22-14.14.40:412][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.22-14.14.40:412][  0]LogWindows: EnumDisplayDevices:
+[2018.01.22-14.14.40:412][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.22-14.14.40:412][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.22-14.14.40:412][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.22-14.14.40:412][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.22-14.14.40:412][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.22-14.14.40:412][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.22-14.14.40:412][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.22-14.14.40:412][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.22-14.14.40:412][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.22-14.14.40:431][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.22-14.14.40:446][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.22-14.14.40:488][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (F:/Uni Work/Journeyman/JMan_Team5/Team5/Intermediate/Shaders/WorkingDirectory/9600/).
+[2018.01.22-14.14.40:488][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry/AppData/Local/Temp/UnrealShaderWorkingDir/2052B7404DBDFA9D9ED0CABE3DE87B56/'.
+[2018.01.22-14.14.40:488][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.22-14.14.41:313][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.22-14.14.41:353][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.22-14.14.41:393][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.22-14.14.41:433][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.22-14.14.41:473][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.22-14.14.41:513][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.22-14.14.41:554][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.22-14.14.41:593][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.22-14.14.41:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.22-14.14.41:667][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.22-14.14.41:706][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.22-14.14.41:745][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.22-14.14.41:788][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.22-14.14.41:827][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.22-14.14.41:869][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.22-14.14.41:947][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.22-14.14.41:947][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.22-14.14.41:980][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.22-14.14.42:060][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.22-14.14.42:082][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.22-14.14.42:122][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.22-14.14.42:161][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.22-14.14.42:201][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.22-14.14.42:240][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.22-14.14.42:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.22-14.14.42:624][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Uni Work/Journeyman/JMan_Team5/Team5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Uni Work/Journeyman/JMan_Team5/Team5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.22-14.14.42:685][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.22-14.14.42:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.22-14.14.42:708][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.22-14.14.42:715][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.22-14.14.42:716][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.22-14.14.42:716][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.22-14.14.42:716][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.22-14.14.42:954][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-14.14.43:003][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.22-14.14.43:130][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.22-14.14.43:166][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.22-14.14.43:204][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.22-14.14.43:204][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.22-14.14.43:204][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.22-14.14.43:639][  0]LogNetVersion: Team5 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 224845630)
+[2018.01.22-14.14.43:692][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2018.01.22-14.14.43:760][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046031 seconds
+[2018.01.22-14.14.43:765][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.22-14.14.43:765][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.22-14.14.43:765][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.22-14.14.43:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.22-14.14.45:612][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.22-14.14.45:645][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.22-14.14.46:058][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.22-14.14.46:374][  0]SourceControl: Info Source control is disabled
+[2018.01.22-14.14.46:375][  0]SourceControl: Info Source control is disabled
+[2018.01.22-14.14.46:412][  0]SourceControl: Info Source control is disabled
+[2018.01.22-14.14.46:449][  0]SourceControl: Info Source control is disabled
+[2018.01.22-14.14.47:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.22-14.14.47:462][  0]LogEngine: Initializing Engine...
+[2018.01.22-14.14.47:463][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.22-14.14.47:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.22-14.14.47:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.22-14.14.47:725][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.22-14.14.47:750][  0]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.22-14.14.47:908][  0]LogInit: FAudioDevice initialized.
+[2018.01.22-14.14.47:945][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.22-14.14.47:953][  0]LogInit: Texture streaming: Enabled
+[2018.01.22-14.14.48:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.22-14.14.48:210][  0]LogInit: Transaction tracking system initialized
+[2018.01.22-14.14.48:471][  0]BlueprintLog: New page: Editor Load
+[2018.01.22-14.14.49:245][  0]LocalizationService: Info Localization service is disabled
+[2018.01.22-14.14.49:833][  0]LogConsoleResponse:Display: 
+[2018.01.22-14.14.49:953][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.22-14.14.49:953][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.22-14.14.50:358][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/' took 0.01s
+[2018.01.22-14.14.50:814][  0]SourceControl: Info Source control is disabled
+[2018.01.22-14.14.50:814][  0]Cmd: MAP LOAD FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.22-14.14.50:833][  0]LightingResults: New page: Lighting Build
+[2018.01.22-14.14.50:870][  0]MapCheck: New page: Map Check
+[2018.01.22-14.14.50:870][  0]LightingResults: New page: Lighting Build
+[2018.01.22-14.14.51:227][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.22-14.14.51:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.22-14.14.51:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.22-14.14.51:292][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.278ms to complete.
+[2018.01.22-14.14.51:292][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.478
+[2018.01.22-14.14.51:466][  0]LogCollectionManager: Loaded 0 collections in 0.001194 seconds
+[2018.01.22-14.14.51:549][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Collections/' took 0.01s
+[2018.01.22-14.14.51:549][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Developers/Harry/Collections/' took 0.01s
+[2018.01.22-14.14.51:549][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Collections/' took 0.01s
+[2018.01.22-14.14.51:549][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.22-14.14.51:557][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2329 classes and 491 folders.
+[2018.01.22-14.14.51:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.22-14.14.51:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.22-14.14.51:965][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.22-14.14.52:079][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.22-14.14.52:084][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.22-14.14.52:085][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.22-14.14.52:097][  0]LogSlate: Took 0.006762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.22-14.14.52:241][  0]LogRenderer: Reallocating scene render targets to support 1616x840 NumSamples 1 (Frame:1).
+[2018.01.22-14.14.52:338][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.22-14.14.52:395][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.22-14.14.52:395][  0]LogLoad: (Engine Initialization) Total time: 14.26 seconds
+[2018.01.22-14.14.52:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.01.22-14.14.52:395][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.22-14.14.52:395][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.22-14.14.52:405][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.22-14.14.52:405][  0]LogOcInput: OculusInput pre-init called
+[2018.01.22-14.14.52:405][  0]LogHMD: Starting GearVRController plugin
+[2018.01.22-14.14.52:417][  0]LogAssetRegistry: Asset discovery search completed in 8.7465 seconds
+[2018.01.22-14.14.52:419][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.22-14.14.52:419][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2018.01.22-14.14.52:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.22-14.15.09:075][894]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.22-14.15.09:103][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.22-14.15.09:103][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-14.15.09:104][894]PIE: New page: PIE session: ThirdPersonExampleMap (22 Jan 2018 14:15:09)
+[2018.01.22-14.15.09:104][894]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.22-14.15.09:122][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017421s)
+[2018.01.22-14.15.09:122][894]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.22-14.15.09:122][894]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2018.01.22-14.15.09:122][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018336s)
+[2018.01.22-14.15.09:149][894]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.22-14.15.09:154][894]LogInit: FAudioDevice initialized.
+[2018.01.22-14.15.09:666][894]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.22-14.15.09:669][894]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.01.22-14.15.09
+[2018.01.22-14.15.09:670][894]LogWorld: Bringing up level for play took: 0.001127
+[2018.01.22-14.15.09:705][894]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.01.22-14.15.09:711][894]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.643
+[2018.01.22-14.15.09:711][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.22-14.16.11:690][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.22-14.16.11:724][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.22-14.17.27:320][717]LogSlate: Took 0.003505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.22-14.17.27:339][717]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2018.01.22-14.17.27:416][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/Geometry/Meshes/CubeMaterial" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/CubeMaterial.uasset" SILENT=true
+[2018.01.22-14.17.27:430][717]LogSavePackage: Save=12.66ms
+[2018.01.22-14.17.27:430][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/CubeMaterial29D37896438C097A69A6BB896BE33808.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/CubeMaterial.uasset'
+[2018.01.22-14.17.27:433][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/CubeMaterial.uasset
+[2018.01.22-14.17.27:445][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/Geometry/Meshes/1M_Cube" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2018.01.22-14.17.27:457][717]LogSavePackage: Save=10.55ms
+[2018.01.22-14.17.27:457][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/1M_Cube44AFC994460C6E9CE35306B85547CA61.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube.uasset'
+[2018.01.22-14.17.27:458][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube.uasset
+[2018.01.22-14.17.27:461][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2018.01.22-14.17.27:483][717]LogSavePackage: Save=3.19ms
+[2018.01.22-14.17.27:483][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/1M_CubeAFAC5D47477C34ABB922B4BC52C93BF3.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube.uasset'
+[2018.01.22-14.17.27:485][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube.uasset
+[2018.01.22-14.17.27:497][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/Geometry/Meshes/1M_Cube_Chamfer" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube_Chamfer.uasset" SILENT=true
+[2018.01.22-14.17.27:509][717]LogSavePackage: Save=10.77ms
+[2018.01.22-14.17.27:509][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/1M_Cube_Chamfer4ACB52AD44FEFEC5BE40E789B656D7E6.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube_Chamfer.uasset'
+[2018.01.22-14.17.27:510][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2018.01.22-14.17.27:512][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube_Chamfer" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" SILENT=true
+[2018.01.22-14.17.27:521][717]LogSavePackage: Save=3.62ms
+[2018.01.22-14.17.27:521][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/1M_Cube_Chamfer10E9FD4F44FDDF227C706FA17ED8F08C.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset'
+[2018.01.22-14.17.27:522][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2018.01.22-14.17.27:534][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/Geometry/Meshes/TemplateFloor" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/TemplateFloor.uasset" SILENT=true
+[2018.01.22-14.17.27:546][717]LogSavePackage: Save=10.67ms
+[2018.01.22-14.17.27:546][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/TemplateFloorD651FBE14B876921C1AE7696CA40B465.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/TemplateFloor.uasset'
+[2018.01.22-14.17.27:547][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Geometry/Meshes/TemplateFloor.uasset
+[2018.01.22-14.17.27:550][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/TemplateFloor" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/TemplateFloor.uasset" SILENT=true
+[2018.01.22-14.17.27:559][717]LogSavePackage: Save=3.79ms
+[2018.01.22-14.17.27:559][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/TemplateFloorF34E6F2641E6756354CFE7BB562296B8.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/TemplateFloor.uasset'
+[2018.01.22-14.17.27:560][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Geometry/Meshes/TemplateFloor.uasset
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:755][717]LogMetaData: Removing '/Game/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.01.22-14.17.27:866][717]LogSavePackage: Save=45.97ms
+[2018.01.22-14.17.27:866][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/SK_MannequinC6123FA64E0839CCC703ED97490B6E8B.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2018.01.22-14.17.27:868][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2018.01.22-14.17.27:883][717]LogSavePackage: Save=12.29ms
+[2018.01.22-14.17.27:883][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/SK_Mannequin_PhysicsAsset190E0C4B4079429ECB3BC2B6BC7A0500.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2018.01.22-14.17.27:885][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2018.01.22-14.17.27:912][717]LogSavePackage: Save=13.07ms
+[2018.01.22-14.17.27:912][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/M_UE4Man_ChestLogoD1DBF2C64422869BD8FE19854021D8F5.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2018.01.22-14.17.27:913][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+[2018.01.22-14.17.27:940][717]LogSavePackage: Save=15.20ms
+[2018.01.22-14.17.27:940][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/UE4Man_Logo_N168CF5B545ED6B33AF18B69E10D9CEF9.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4Man_Logo_N.uasset'
+[2018.01.22-14.17.27:941][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
+[2018.01.22-14.17.27:972][717]LogSavePackage: Save=16.69ms
+[2018.01.22-14.17.27:972][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/M_UE4Man_BodyA23E4BDE47FDDA5A6488DCB4D30DD2E4.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/M_UE4Man_Body.uasset'
+[2018.01.22-14.17.27:973][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+[2018.01.22-14.17.27:995][717]LogSavePackage: Save=12.79ms
+[2018.01.22-14.17.27:996][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/UE4_Mannequin_MAT_MASKA4DCD12F4476DF1462013F892239A9C4A.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2018.01.22-14.17.27:997][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2018.01.22-14.17.28:065][717]LogSavePackage: Save=59.01ms
+[2018.01.22-14.17.28:065][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/UE4_Mannequin__normalsD81F7E88472BDE3ECD0C0FB7CE782218.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset'
+[2018.01.22-14.17.28:066][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2018.01.22-14.17.28:074][717]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.22-14.17.28:145][717]LogSavePackage: Save=13.32ms
+[2018.01.22-14.17.28:145][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ML_SoftMetal_UE4F58D2BE24DFE145757A94EA6637CC274.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2018.01.22-14.17.28:146][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2018.01.22-14.17.28:173][717]LogSavePackage: Save=13.84ms
+[2018.01.22-14.17.28:173][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/T_ML_Aluminum01_N1B64FAA44A412F7E86BB04AE474FB5AA.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2018.01.22-14.17.28:175][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2018.01.22-14.17.28:200][717]LogSavePackage: Save=14.42ms
+[2018.01.22-14.17.28:200][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/T_ML_Aluminum01C858FC1040286A91E2650DAA6CC60A10.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2018.01.22-14.17.28:202][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2018.01.22-14.17.28:209][717]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.01.22-14.17.28:259][717]LogSavePackage: Save=12.55ms
+[2018.01.22-14.17.28:259][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ML_Plastic_Shiny_Beige_LOGO4677E45943D8E349B3FE7DA9A3C5BC79.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2018.01.22-14.17.28:260][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2018.01.22-14.17.28:281][717]LogSavePackage: Save=9.15ms
+[2018.01.22-14.17.28:281][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/UE4_LOGO_CARD0EA6AB0847E52A9004D3478C5E7C215E.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset'
+[2018.01.22-14.17.28:282][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
+[2018.01.22-14.17.28:287][717]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.01.22-14.17.28:339][717]LogSavePackage: Save=12.17ms
+[2018.01.22-14.17.28:339][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ML_Plastic_Shiny_Beige75B7A7834441CDFEFD2DC9B2BB23E678.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2018.01.22-14.17.28:341][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2018.01.22-14.17.28:347][717]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2018.01.22-14.17.28:402][717]LogSavePackage: Save=17.30ms
+[2018.01.22-14.17.28:402][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ML_GlossyBlack_Latex_UE45CBAAA544BDD5843FBF3289E3592A2C5.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2018.01.22-14.17.28:403][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2018.01.22-14.17.28:432][717]LogSavePackage: Save=14.46ms
+[2018.01.22-14.17.28:432][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/T_ML_Rubber_Blue_01_ND469F16143CDD54E1F798C8BF7778012.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2018.01.22-14.17.28:434][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2018.01.22-14.17.28:479][717]LogSavePackage: Save=30.79ms
+[2018.01.22-14.17.28:479][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/T_ML_Rubber_Blue_01_D5216C2C3404ED58003BC11819BCE2FAA.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2018.01.22-14.17.28:481][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2018.01.22-14.17.28:599][717]LogSavePackage: Save=97.76ms
+[2018.01.22-14.17.28:599][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPerson_AnimBPD973A9D74936CCCB6861E98ACF28873E.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2018.01.22-14.17.28:601][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2018.01.22-14.17.28:641][717]LogSavePackage: Save=15.91ms
+[2018.01.22-14.17.28:641][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPerson_IdleRun_2DD6C5A72F42746739D892B8B21201FFB2.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2018.01.22-14.17.28:643][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+[2018.01.22-14.17.28:688][717]LogSavePackage: Save=18.64ms
+[2018.01.22-14.17.28:688][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonWalk0EB6226046FEBF7A95F4709920A68868.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2018.01.22-14.17.28:690][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonWalk.uasset
+[2018.01.22-14.17.28:729][717]LogSavePackage: Save=20.66ms
+[2018.01.22-14.17.28:729][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonRun024006E848AA5E3B211D7FBD958AFADE.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonRun.uasset'
+[2018.01.22-14.17.28:731][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonRun.uasset
+[2018.01.22-14.17.28:768][717]LogSavePackage: Save=18.49ms
+[2018.01.22-14.17.28:768][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonIdle56496AA4450CEC0DC9B67AAE5C72A982.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2018.01.22-14.17.28:770][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonIdle.uasset
+[2018.01.22-14.17.28:811][717]LogSavePackage: Save=20.83ms
+[2018.01.22-14.17.28:811][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonJump_StartB9291844447803A565E93DBCF8031B98.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_Start.uasset'
+[2018.01.22-14.17.28:813][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_Start.uasset
+[2018.01.22-14.17.28:848][717]LogSavePackage: Save=17.16ms
+[2018.01.22-14.17.28:848][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonJump_Loop47A2AC2641321CF6F9B8EB992AF4714C.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_Loop.uasset'
+[2018.01.22-14.17.28:850][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+[2018.01.22-14.17.28:885][717]LogSavePackage: Save=18.35ms
+[2018.01.22-14.17.28:885][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPerson_JumpF8CA81A44B54B79DDB56689F683DB740.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_Jump.uasset'
+[2018.01.22-14.17.28:886][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPerson_Jump.uasset
+[2018.01.22-14.17.28:897][717]LogSavePackage: Save=6.52ms
+[2018.01.22-14.17.28:897][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/UE4_Mannequin_Skeleton4F5B48B047174522E0854180639FBBD0.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.01.22-14.17.28:899][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.01.22-14.17.28:933][717]LogSavePackage: Save=17.06ms
+[2018.01.22-14.17.28:933][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonJump_End8D2331764E1EB6391F7D7D884A0BF388.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_End.uasset'
+[2018.01.22-14.17.28:935][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/Mannequin/Animations/ThirdPersonJump_End.uasset
+[2018.01.22-14.17.30:183][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.01.22-14.17.30:339][717]LogSavePackage: Save=148.22ms
+[2018.01.22-14.17.30:339][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacter4940B51F404AE0FC0351B6BCE35D589C.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.22-14.17.30:341][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.22-14.17.30:344][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.01.22-14.17.30:484][717]LogSavePackage: Save=138.13ms
+[2018.01.22-14.17.30:485][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacter4E09BBAF454E5CE5F95D01A00258BB89.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.22-14.17.30:485][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.22-14.17.30:605][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPerson/Meshes/RampMaterial" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/RampMaterial.uasset" SILENT=true
+[2018.01.22-14.17.30:623][717]LogSavePackage: Save=16.20ms
+[2018.01.22-14.17.30:623][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/RampMaterialCA3BF0EB43FDF05FF4CECDAE9133A4AC.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/RampMaterial.uasset'
+[2018.01.22-14.17.30:625][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/RampMaterial.uasset
+[2018.01.22-14.17.30:641][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPerson/Meshes/Bump_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Bump_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:660][717]LogSavePackage: Save=16.32ms
+[2018.01.22-14.17.30:660][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Bump_StaticMesh57C433824C009D599A4E7B9934952114.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Bump_StaticMesh.uasset'
+[2018.01.22-14.17.30:662][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Bump_StaticMesh.uasset
+[2018.01.22-14.17.30:664][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Meshes/Bump_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:676][717]LogSavePackage: Save=4.84ms
+[2018.01.22-14.17.30:676][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Bump_StaticMesh13E18F9C4B514EAB9026FBAAD3501499.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset'
+[2018.01.22-14.17.30:678][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset
+[2018.01.22-14.17.30:712][717]LogSavePackage: Save=15.89ms
+[2018.01.22-14.17.30:712][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/LeftArm_StaticMeshACAFA4D8444FC661F9EBA08C3D8EF3F9.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset'
+[2018.01.22-14.17.30:714][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset
+[2018.01.22-14.17.30:717][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Meshes/LeftArm_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:730][717]LogSavePackage: Save=5.34ms
+[2018.01.22-14.17.30:730][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/LeftArm_StaticMesh990DE8BE448FBB032423539B790EE211.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset'
+[2018.01.22-14.17.30:732][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset
+[2018.01.22-14.17.30:771][717]LogSavePackage: Save=14.52ms
+[2018.01.22-14.17.30:771][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Linear_Stair_StaticMeshC50C0EC84D92EB02F53A83866178CC29.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset'
+[2018.01.22-14.17.30:772][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset
+[2018.01.22-14.17.30:775][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:787][717]LogSavePackage: Save=5.25ms
+[2018.01.22-14.17.30:787][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Linear_Stair_StaticMeshA7FD12294F1356743D2EFBB556C18BBF.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset'
+[2018.01.22-14.17.30:789][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset
+[2018.01.22-14.17.30:805][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPerson/Meshes/Ramp_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:825][717]LogSavePackage: Save=17.88ms
+[2018.01.22-14.17.30:825][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Ramp_StaticMesh7E09505540AB33387254D4B5F3EC2D90.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Ramp_StaticMesh.uasset'
+[2018.01.22-14.17.30:827][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/Ramp_StaticMesh.uasset
+[2018.01.22-14.17.30:830][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Meshes/Ramp_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:844][717]LogSavePackage: Save=5.40ms
+[2018.01.22-14.17.30:844][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Ramp_StaticMeshD8629224470AF73A9755FE95FE1DC998.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset'
+[2018.01.22-14.17.30:846][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset
+[2018.01.22-14.17.30:879][717]LogSavePackage: Save=15.29ms
+[2018.01.22-14.17.30:879][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/RightArm_StaticMeshEBCA97FF478AC3D226E8BABF472549F6.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/RightArm_StaticMesh.uasset'
+[2018.01.22-14.17.30:881][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPerson/Meshes/RightArm_StaticMesh.uasset
+[2018.01.22-14.17.30:884][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Meshes/RightArm_StaticMesh" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" SILENT=true
+[2018.01.22-14.17.30:898][717]LogSavePackage: Save=5.77ms
+[2018.01.22-14.17.30:898][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/RightArm_StaticMesh6E00F0BA4893C33D22557792CCD6E804.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset'
+[2018.01.22-14.17.30:900][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_Aim_K2Node_InputAxisEvent_324' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:AimingArrow' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:NormalFOV' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:SprintFOV' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IsCrouching' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IsJumping' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IsSprinting' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IsAiming' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsAiming' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsSprinting' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsJumping' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:IsCrouching' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:SprintFOV' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:NormalFOV' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:AimingArrow' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Aim_K2Node_InputAxisEvent_324' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:034][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:117][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.01.22-14.17.31:123][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' ref from Metadata '/Game/ThirdPersonBP/ThirdPersonOverview.PackageMetaData'
+[2018.01.22-14.17.31:123][717]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview.SKEL_ThirdPersonOverview_C' ref from Metadata '/Game/ThirdPersonBP/ThirdPersonOverview.PackageMetaData'
+[2018.01.22-14.17.31:312][717]LogSavePackage: Save=156.28ms
+[2018.01.22-14.17.31:312][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacterFE0E88DD48CBCAF49EA91496B2383221.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.22-14.17.31:314][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.22-14.17.31:453][717]LogSavePackage: Save=134.66ms
+[2018.01.22-14.17.31:453][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonExampleMap_BuiltData82968D50459833B3E541E19E951C7D9F.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.01.22-14.17.31:455][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.01.22-14.17.31:473][717]LogSavePackage: Save=4.05ms
+[2018.01.22-14.17.31:473][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonExampleMap_BuiltDataBFD63EC74D7314259015DA9AC5984C64.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.01.22-14.17.31:475][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.01.22-14.17.31:489][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPersonBP/M_PostProcess_Base" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/M_PostProcess_Base.uasset" SILENT=true
+[2018.01.22-14.17.31:533][717]LogSavePackage: Save=42.28ms
+[2018.01.22-14.17.31:533][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/M_PostProcess_BaseB1726C2244022F2EFB6BCAA37C6C8D8F.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/M_PostProcess_Base.uasset'
+[2018.01.22-14.17.31:535][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/M_PostProcess_Base.uasset
+[2018.01.22-14.17.31:539][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/M_PostProcess_Base" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/M_PostProcess_Base.uasset" SILENT=true
+[2018.01.22-14.17.31:551][717]LogSavePackage: Save=4.80ms
+[2018.01.22-14.17.31:551][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/M_PostProcess_BaseD6920C13458892DB0E5874BD352BBFFD.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/M_PostProcess_Base.uasset'
+[2018.01.22-14.17.31:553][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/ThirdPersonBP/M_PostProcess_Base.uasset
+[2018.01.22-14.17.31:566][717]LogSavePackage: Save=8.45ms
+[2018.01.22-14.17.31:566][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonGameModeDA62D5174288FDC6FE318796EF150DEB.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2018.01.22-14.17.31:568][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2018.01.22-14.17.31:571][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview.uasset" SILENT=true
+[2018.01.22-14.17.31:586][717]LogSavePackage: Save=11.19ms
+[2018.01.22-14.17.31:586][717]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonOverviewDC217D8C48CAE3B416F05C873CB527C5.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview.uasset'
+[2018.01.22-14.17.31:587][717]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/ThirdPersonOverview.uasset
+[2018.01.22-14.17.44:505][197]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2018.01.22-14.17.44:505][197]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2018.01.22-14.17.44:738][197]LogSavePackage: Save=166.61ms
+[2018.01.22-14.17.44:738][197]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonExampleMap183C2EF3484571E946A618876AC15F22.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonExampleMap.umap'
+[2018.01.22-14.17.44:740][197]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonExampleMap.umap
+[2018.01.22-14.17.44:757][197]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.235
+[2018.01.22-14.18.20:889][153]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/CORE_ASSETS/ThirdPersonExampleMap.PackageMetaData'
+[2018.01.22-14.18.20:889][153]LogMetaData: Removing '/Game/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/CORE_ASSETS/ThirdPersonExampleMap.PackageMetaData'
+[2018.01.22-14.18.21:112][153]LogSavePackage: Save=162.92ms
+[2018.01.22-14.18.21:112][153]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonExampleMap99E4D63240A574CFCDE5F0A72A54E873.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.22-14.18.21:114][153]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.22-14.18.21:132][153]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.232
+[2018.01.22-14.18.22:954][361]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/CORE_ASSETS/ThirdPersonExampleMap.ThirdPersonExampleMap_BuiltData'
+[2018.01.22-14.24.25:881][492]LogSavePackage: Save=166.69ms
+[2018.01.22-14.24.25:881][492]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonExampleMapBD6231B749CB99F4A1B5BB82F0BCD465.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.22-14.24.25:883][492]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.22-14.24.27:947][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/ThirdPersonExampleMap" FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonExampleMap.umap" SILENT=true
+[2018.01.22-14.24.28:387][733]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.437 s
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: 
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp] [Line: 4392]
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: Attempting to save a map package '/Game/CORE_ASSETS/ThirdPersonExampleMap' that does not contain a map object.
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: Stack: 
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030F0E2B6
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030CBB8C2
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030CD1E86
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000037F8E769
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018F2B7B0
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018F2C0F8
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018F6E2C0
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018F6AD08
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000197716B6
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019204427
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000192300A1
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019204978
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000001923D673
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-MainFrame.dll!0x000000000D7E5D99
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-MainFrame.dll!0x000000000D7CD737
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003062EB7F
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030727862
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003072D588
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030693B42
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030694EC9
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030707775
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000307B8F57
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000307E5D7B
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003072F5FD
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030609E9C
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000305D9835
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003067E5E2
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003066720F
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000030658391
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030F0175B
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030EEB7D1
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030F033DB
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030EE7B22
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: USER32.dll!0x000000006958B85D
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: USER32.dll!0x000000006958B1EF
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000030F03CE6
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor.exe!0x000000003E6EDB44
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor.exe!0x000000003E6DF0B0
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor.exe!0x000000003E6DF12A
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor.exe!0x000000003E6F0CF9
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: UE4Editor.exe!0x000000003E6F25F7
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: KERNEL32.DLL!0x0000000069061FE4
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: ntdll.dll!0x000000006B7DEFB1
+[2018.01.22-14.24.28:387][733]LogOutputDevice:Error: 
+[2018.01.22-14.24.28:392][733]LogStats:                SubmitErrorReport -  0.000 s
