@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/22/2018, 19:34:19
-             Machine name: TU45340
-               Machine Id: {ABCAED98-EF45-4750-94BA-58BDF07D1677}
+      Time of this report: 1/23/2018, 19:22:32
+             Machine name: TU45326
+               Machine Id: {0A4FCE10-7FBD-401D-8B64-39F0F46F892F}
          Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171129-2100)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 8035MB used, 29512MB available
+                Page File: 8905MB used, 28642MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -308,32 +308,9 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/16/2016 11:41:55, 535904 bytes
 | 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0011.Hub_#0003
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 10/9/2017 02:30:18, 169304 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.011.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
-| | | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
-| | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 9/15/2016 16:43:23, 39424 bytes
-| | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
-| | 
 +-+ USB Input Device
 | | Vendor/Product ID: 0x03F0, 0x094A
-| | Location: Port_#0012.Hub_#0003
+| | Location: Port_#0005.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
@@ -346,6 +323,29 @@ USB Devices
 | | | Service: mouhid
 | | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
 | | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
+| | 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x03F0, 0x034A
+| | Location: Port_#0012.Hub_#0003
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 10/9/2017 02:30:18, 169304 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x03F0, 0x034A
+| | | Location: 0000.0014.0000.012.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
+| | | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
+| | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x03F0, 0x034A
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 9/15/2016 16:43:23, 39424 bytes
+| | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
 
 ----------------
 Gameport Devices
@@ -359,13 +359,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 170.9 GB
+ Free Space: 188.2 GB
 Total Space: 487.9 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1907.5 GB
+ Free Space: 1900.9 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
@@ -1344,90 +1344,14 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 116443612856, type 5
-Event Name: BEX64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: svchost.exe_PcaSvc
-P2: 10.0.14393.0
-P3: 57899b1c
-P4: ntdll.dll
-P5: 10.0.14393.1715
-P6: 59b0d03e
-P7: 00000000000e3ff1
-P8: c0000409
-P9: 0000000000000023
-P10: 
-
-
-+++ WER1 +++:
-Fault bucket , type 0
-Event Name: BEX64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: svchost.exe_PcaSvc
-P2: 10.0.14393.0
-P3: 57899b1c
-P4: ntdll.dll
-P5: 10.0.14393.1715
-P6: 59b0d03e
-P7: 00000000000e3ff1
-P8: c0000409
-P9: 0000000000000023
-P10: 
-
-
-+++ WER2 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER3 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER4 +++:
-Fault bucket 129520322746, type 5
+Fault bucket 1349932862852589803, type 5
 Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UnrealLightmass.exe
-P2: 4.16.3.0
+P1: chrome.exe
+P2: 63.0.3239.132
 P3: 10.0.14393.2.0.0
 P4: 
 P5: 
@@ -1438,19 +1362,95 @@ P9:
 P10: 
 
 
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
++++ WER1 +++:
+Fault bucket 1519689666422449734, type 5
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_1E7D&PID_2C2E&REV_0035
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: 10.0.14393.1914
+P2: 80070643
+P3: 1E5FA449-64F7-409E-B522-2E03833197E0
+P4: Install
+P5: 200
+P6: 0
+P7: 800106ba
+P8: CcmExec
+P9: {3DA21691-E39D-4DA6-8A4B-B43877BCB1B7}
+P10: 0
+
+
++++ WER2 +++:
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.1914
+P2: 80070643
+P3: 1E5FA449-64F7-409E-B522-2E03833197E0
+P4: Install
+P5: 200
+P6: 0
+P7: 800106ba
+P8: CcmExec
+P9: {3DA21691-E39D-4DA6-8A4B-B43877BCB1B7}
+P10: 0
+
+
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.1914
+P2: 80070643
+P3: 1E5FA449-64F7-409E-B522-2E03833197E0
+P4: Install
+P5: 200
+P6: 0
+P7: 800106ba
+P8: CcmExec
+P9: {3DA21691-E39D-4DA6-8A4B-B43877BCB1B7}
+P10: 0
+
+
++++ WER4 +++:
+Fault bucket 1960347940107684244, type 5
+Event Name: MpTelemetry
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 0x800106ba
+P2: ValidateUpdate
+P3: N/A
+P4: 1.1.14146.0
+P5: mpsigstub.exe
+P6: 4.10.14393.1794
+P7: Microsoft Windows Defender (RS1+)
+P8: 
+P9: 
+P10: 
+
+
++++ WER5 +++:
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1458,22 +1458,22 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 1241893953202201263, type 5
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_1E7D&PID_2C2E&REV_0035
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.14393.1914
+P2: 80070643
+P3: 1E5FA449-64F7-409E-B522-2E03833197E0
+P4: Install
+P5: 200
+P6: 0
+P7: 800705b4
+P8: CcmExec
+P9: {3DA21691-E39D-4DA6-8A4B-B43877BCB1B7}
+P10: 0
 
 
 +++ WER7 +++:
@@ -1484,7 +1484,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P2: USB\VID_FEED&PID_6060&REV_0001&MI_03
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1503,7 +1503,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P2: USB\VID_FEED&PID_6060&REV_0001&MI_03
 P3: 
 P4: 
 P5: 
@@ -1522,7 +1522,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_1E7D&PID_2C2E&REV_0035
+P2: USB\VID_FEED&PID_6060&REV_0001&MI_04
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
