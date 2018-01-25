@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 01/24/18 17:53:54
 =======
 ﻿Log file open, 01/24/18 15:56:55
@@ -30,6 +31,14 @@ LogStats: Stats thread started at 0.140524
 =======
 LogStats: Stats thread started at 0.119479
 >>>>>>> Richy-Test
+=======
+﻿Log file open, 01/25/18 20:36:25
+LogInit:Display: Running engine for game: Team5
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1617660576) SRandInit(-1617660576).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.389156
+>>>>>>> HarryG-Branch
 =======
 ﻿Log file open, 01/25/18 20:36:25
 LogInit:Display: Running engine for game: Team5
@@ -84,6 +93,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12110,6 +12120,8 @@ LogInit: Object subsystem initialized
 [2018.01.25-11.49.03:191][837]Log file closed, 01/25/18 11:49:03
 >>>>>>> Richy-Test
 =======
+=======
+>>>>>>> HarryG-Branch
 [2018.01.25-20.36.26:017][  0]LogInit: Selected Device Profile: [Windows]
 [2018.01.25-20.36.26:017][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.01.25-20.36.26:039][  0]LogInit: Computer: DESKTOP-M7J346A
@@ -12586,4 +12598,7 @@ LogInit: Object subsystem initialized
 [2018.01.25-20.41.54:637][142]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.01.25-20.41.54:638][142]LogExit: Exiting.
 [2018.01.25-20.41.54:647][142]Log file closed, 01/25/18 20:41:54
+<<<<<<< HEAD
+>>>>>>> HarryG-Branch
+=======
 >>>>>>> HarryG-Branch
