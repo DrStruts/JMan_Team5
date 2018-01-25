@@ -1,0 +1,1022 @@
+﻿Log file open, 01/25/18 19:27:33
+LogInit:Display: Running engine for game: Team5
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1313147863) SRandInit(-1313147863).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.380222
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.25-19.27.33:849][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-19.27.33:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.25-19.27.33:890][  0]LogInit: Computer: DESKTOP-M7J346A
+[2018.01.25-19.27.33:890][  0]LogInit: User: Harry
+[2018.01.25-19.27.33:890][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.25-19.27.33:890][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2018.01.25-19.27.33:890][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.25-19.27.33:890][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-19.27.33:890][  0]LogMemory: Process Physical Memory: 273.46 MB used, 273.46 MB peak
+[2018.01.25-19.27.33:890][  0]LogMemory: Process Virtual Memory: 260.78 MB used, 260.78 MB peak
+[2018.01.25-19.27.33:890][  0]LogMemory: Physical Memory: 5889.54 MB used,  10412.59 MB free, 16302.13 MB total
+[2018.01.25-19.27.33:890][  0]LogMemory: Virtual Memory: 671.81 MB used,  10412.59 MB free, 134217728.00 MB total
+[2018.01.25-19.27.34:098][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.25-19.27.34:098][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.25-19.27.34:150][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.25-19.27.36:812][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.25-19.27.36:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.25-19.27.36:857][  0]LogD3D11RHI:       8088/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.25-19.27.36:859][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.25-19.27.36:859][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.25-19.27.36:859][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.25-19.27.36:866][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.25-19.27.36:866][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.25-19.27.36:866][  0]LogWindows: EnumDisplayDevices:
+[2018.01.25-19.27.36:866][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.25-19.27.36:866][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.25-19.27.36:866][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.25-19.27.36:866][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.25-19.27.36:866][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.25-19.27.36:866][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.25-19.27.36:866][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.25-19.27.36:866][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.25-19.27.36:867][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.25-19.27.36:888][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.25-19.27.36:911][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.25-19.27.36:956][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (F:/Uni Work/Journeyman/JMan_Team5/Team5/Intermediate/Shaders/WorkingDirectory/12416/).
+[2018.01.25-19.27.36:956][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry/AppData/Local/Temp/UnrealShaderWorkingDir/1BFEC3594B87D05D63AED1B29431DFEB/'.
+[2018.01.25-19.27.36:956][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.25-19.27.38:838][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.25-19.27.38:880][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.25-19.27.38:920][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.25-19.27.38:963][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.25-19.27.39:008][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.25-19.27.39:054][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.25-19.27.39:095][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.25-19.27.39:135][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.25-19.27.39:172][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.25-19.27.39:216][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.25-19.27.39:259][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.25-19.27.39:298][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.25-19.27.39:337][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.25-19.27.39:375][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.25-19.27.39:417][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.25-19.27.39:500][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.25-19.27.39:500][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.25-19.27.39:531][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.25-19.27.39:617][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.25-19.27.39:642][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.25-19.27.39:681][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.25-19.27.39:719][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.25-19.27.39:760][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.25-19.27.39:802][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.25-19.27.39:802][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.25-19.27.40:238][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache: Loaded boot cache 0.19s 90MB C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Uni Work/Journeyman/JMan_Team5/Team5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Uni Work/Journeyman/JMan_Team5/Team5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.25-19.27.40:430][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.25-19.27.40:448][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.25-19.27.40:461][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.25-19.27.40:469][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.25-19.27.40:472][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.25-19.27.40:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-19.27.40:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-19.27.41:072][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-19.27.41:205][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.25-19.27.41:383][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.25-19.27.41:425][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.25-19.27.41:468][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.25-19.27.41:468][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.25-19.27.41:468][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.25-19.27.42:564][  0]LogNetVersion: Team5 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 224845630)
+[2018.01.25-19.27.42:644][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.01.25-19.27.42:712][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.050312 seconds
+[2018.01.25-19.27.42:718][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.25-19.27.42:718][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.25-19.27.42:718][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.25-19.27.42:769][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.25-19.27.46:897][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.25-19.27.46:932][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.25-19.27.47:441][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.25-19.27.47:814][  0]SourceControl: Info Source control is disabled
+[2018.01.25-19.27.47:815][  0]SourceControl: Info Source control is disabled
+[2018.01.25-19.27.47:863][  0]SourceControl: Info Source control is disabled
+[2018.01.25-19.27.47:911][  0]SourceControl: Info Source control is disabled
+[2018.01.25-19.27.48:567][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.25-19.27.49:103][  0]LogEngine: Initializing Engine...
+[2018.01.25-19.27.49:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.25-19.27.49:252][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.25-19.27.49:252][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.25-19.27.49:370][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.25-19.27.49:397][  0]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.27.49:549][  0]LogInit: FAudioDevice initialized.
+[2018.01.25-19.27.49:596][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Harry/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.25-19.27.49:606][  0]LogInit: Texture streaming: Enabled
+[2018.01.25-19.27.49:693][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.25-19.27.49:945][  0]LogInit: Transaction tracking system initialized
+[2018.01.25-19.27.50:250][  0]BlueprintLog: New page: Editor Load
+[2018.01.25-19.27.51:178][  0]LocalizationService: Info Localization service is disabled
+[2018.01.25-19.27.51:824][  0]LogConsoleResponse:Display: 
+[2018.01.25-19.27.51:972][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.25-19.27.51:972][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.25-19.27.52:327][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/' took 0.02s
+[2018.01.25-19.27.52:972][  0]SourceControl: Info Source control is disabled
+[2018.01.25-19.27.52:973][  0]Cmd: MAP LOAD FILE="F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-19.27.52:973][  0]LightingResults: New page: Lighting Build
+[2018.01.25-19.27.53:011][  0]MapCheck: New page: Map Check
+[2018.01.25-19.27.53:011][  0]LightingResults: New page: Lighting Build
+[2018.01.25-19.27.53:210][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.01.25-19.27.58:417][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.01.25-19.27.58:446][  0]LogMaterial: Missing cached shader map for material M_PostProcess2_base, compiling. 
+[2018.01.25-19.27.58:463][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.01.25-19.27.58:593][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:597][  0]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:602][  0]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:608][  0]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:611][  0]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:616][  0]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:619][  0]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:623][  0]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:626][  0]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.01.25-19.27.58:627][  0]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2018.01.25-19.27.58:629][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:632][  0]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.01.25-19.27.58:634][  0]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 64X64)
+[2018.01.25-19.27.58:636][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:655][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:659][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:670][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.01.25-19.27.58:694][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:712][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:715][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.01.25-19.27.58:728][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.01.25-19.27.58:790][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.01.25-19.27.58:817][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.01.25-19.27.58:843][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.01.25-19.27.58:859][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.01.25-19.27.58:879][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.01.25-19.27.58:903][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.01.25-19.27.58:930][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.01.25-19.27.58:950][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.01.25-19.27.58:976][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.01.25-19.27.58:996][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2018.01.25-19.27.59:009][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.01.25-19.27.59:030][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.01.25-19.27.59:051][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 64X64)
+[2018.01.25-19.27.59:056][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.01.25-19.27.59:072][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.01.25-19.27.59:093][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.01.25-19.27.59:117][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.01.25-19.27.59:137][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.01.25-19.27.59:157][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.01.25-19.27.59:183][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.01.25-19.27.59:212][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.01.25-19.27.59:275][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:287][  0]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:299][  0]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:310][  0]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:320][  0]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:331][  0]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:342][  0]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:352][  0]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:364][  0]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.01.25-19.27.59:372][  0]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64)
+[2018.01.25-19.27.59:377][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:387][  0]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 128X64)
+[2018.01.25-19.27.59:395][  0]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 64X32)
+[2018.01.25-19.27.59:397][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:410][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:420][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:435][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 128X64)
+[2018.01.25-19.27.59:450][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:466][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:480][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.01.25-19.27.59:522][  0]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.27.59:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-19.27.59:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-19.27.59:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.832ms to complete.
+[2018.01.25-19.27.59:659][  0]LogFileHelpers: Loading map 'TestMap' took 6.687
+[2018.01.25-19.27.59:858][  0]LogCollectionManager: Loaded 0 collections in 0.001803 seconds
+[2018.01.25-19.27.59:943][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Collections/' took 0.01s
+[2018.01.25-19.27.59:943][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Developers/Harry/Collections/' took 0.01s
+[2018.01.25-19.27.59:943][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Collections/' took 0.01s
+[2018.01.25-19.27.59:943][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.25-19.27.59:952][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2329 classes and 491 folders.
+[2018.01.25-19.28.00:010][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.25-19.28.00:351][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.25-19.28.00:393][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.25-19.28.00:534][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.25-19.28.01:334][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.25-19.28.01:363][  0]LogSlate: Took 0.006538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-19.28.01:372][  0]LogSlate: Took 0.006146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.25-19.28.01:385][  0]LogSlate: Took 0.006886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.25-19.28.01:503][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Team5
+[2018.01.25-19.28.01:503][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.25-19.28.01:503][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.01.25-19.28.01:503][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.25-19.28.01:503][  0]LogTemp: BranchPath = DESKTOP-M7J346A/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-M7J346A/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.25-19.28.01:503][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Harry\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.25-19.28.01:503][  0]LogRenderer: Reallocating scene render targets to support 1616x840 NumSamples 1 (Frame:1).
+[2018.01.25-19.28.01:622][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.25-19.28.01:689][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.25-19.28.01:689][  0]LogLoad: (Engine Initialization) Total time: 30.29 seconds
+[2018.01.25-19.28.01:689][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2018.01.25-19.28.01:689][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.25-19.28.01:689][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.25-19.28.01:699][  0]LogOcInput: OculusInput pre-init called
+[2018.01.25-19.28.01:699][  0]LogHMD: Starting GearVRController plugin
+[2018.01.25-19.28.01:715][  0]LogAssetRegistry: Asset discovery search completed in 19.0938 seconds
+[2018.01.25-19.28.01:716][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.25-19.28.01:716][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.01.25-19.28.01:716][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.25-19.31.22:825][107]MapCheck: New page: Map Check
+[2018.01.25-19.31.22:841][107]Cmd: MAP REBUILD ALLVISIBLE
+[2018.01.25-19.31.22:841][107]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.01.25-19.31.22:965][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.01.25-19.31.22:970][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.01.25-19.31.22:974][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HelpActorMaterial, compiling. 
+[2018.01.25-19.31.22:980][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RampMaterial, compiling. 
+[2018.01.25-19.31.22:986][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.01.25-19.31.22:990][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.01.25-19.31.23:445][107]TextureStreamingBuild:Display: Compiling optional shaders took 0.486 seconds.
+[2018.01.25-19.31.23:459][107]LogLevel:Display: Export Material TexCoord Scales took 0.014 seconds.
+[2018.01.25-19.31.23:462][107]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2018.01.25-19.31.23:469][107]LightingResults: New page: Lighting Build - 25 Jan 2018 19:31:23
+[2018.01.25-19.31.23:538][107]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.01.25-19.31.23:599][107]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.01.25-19.31.23:611][107]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.01.25-19.31.24:122][107]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.01.25-19.31.24:122][107]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12416
+[2018.01.25-19.31.26:978][107]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.01.25-19.31.26:978][107]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.01.25-19.31.26:978][107]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.01.25-19.31.26:978][107]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.01.25-19.31.26:978][107]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.01.25-19.31.27:131][107]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.01.25-19.31.27:131][107]MapCheck: New page: TestMap - 25 Jan 2018 19:31:27
+[2018.01.25-19.31.27:132][107]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2018.01.25-19.31.27:174][107]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 42.59ms to complete.
+[2018.01.25-19.31.27:197][107]LogEditorBuildUtils: Build time 0:04
+[2018.01.25-19.31.27:222][107]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.01.25-19.31.27:227][107]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.01.25-19.31.27:286][108]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2018.01.25-19.31.27:293][108]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2018.01.25-19.31.27:323][109]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.01.25-19.31.27:330][109]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.01.25-19.31.27:358][110]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.01.25-19.31.27:367][110]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.01.25-19.31.39:296][ 35]Job is a success!
+[2018.01.25-19.31.39:323][ 36]LogSlate: Took 0.004063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 128X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT, 256X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT, 128X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT, 128X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT, 128X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 128X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 64X32)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 64X64)
+[2018.01.25-19.31.39:858][ 36]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 64X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 128X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 32X32)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 128X64)
+[2018.01.25-19.31.40:147][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2018.01.25-19.31.40:163][ 36]Lightmass on DESKTOP-M7J346A: 9.51 sec total, 294 ms importing, 292 ms setup, 808 ms photons, 8.09 sec processing, 0 ms extra exporting [73/73 mappings]. Threads: 56.5 sec total, 41.8 sec processing.
+[2018.01.25-19.31.40:190][ 36]LogStaticLightingSystem: Illumination: 16.7 sec (441 ms encoding lightmaps, 280 ms encoding shadowmaps)
+[2018.01.25-19.31.40:190][ 36]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 46 textures
+[2018.01.25-19.31.40:190][ 36]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 23 textures
+[2018.01.25-19.31.40:988][ 36]DumpUnbuiltLightIteractions
+[2018.01.25-19.31.40:988][ 36]Lights with unbuilt interactions: 0
+[2018.01.25-19.31.40:988][ 36]
+[2018.01.25-19.31.40:988][ 36]Primitives with unbuilt interactions: 0
+[2018.01.25-19.31.40:996][ 37]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.01.25-19.31.40:996][ 37]MapCheck: New page: TestMap - 25 Jan 2018 19:31:40
+[2018.01.25-19.31.41:080][ 37]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.579ms to complete.
+[2018.01.25-19.31.53:136][480]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.31.53:168][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.31.53:168][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.31.53:168][480]PIE: New page: PIE session: TestMap (25 Jan 2018 19:31:53)
+[2018.01.25-19.31.53:168][480]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.31.53:192][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023570s)
+[2018.01.25-19.31.53:193][480]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.31.53:193][480]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2018.01.25-19.31.53:193][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.024668s)
+[2018.01.25-19.31.53:220][480]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.31.53:227][480]LogInit: FAudioDevice initialized.
+[2018.01.25-19.31.53:641][480]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.31.53:645][480]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.31.53
+[2018.01.25-19.31.53:645][480]LogWorld: Bringing up level for play took: 0.002268
+[2018.01.25-19.31.53:684][480]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.01.25-19.31.53:690][480]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 1.232
+[2018.01.25-19.31.53:690][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.31.58:280][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.31.58:310][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.32.31:465][643]SourceControl: Info Source control is disabled
+[2018.01.25-19.32.34:816][ 44]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/Uni Work/Journeyman/JMan_Team5/Team5/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.01.25-19.32.37:985][423]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.01.25-19.32.51:006][982]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.32.51:021][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.32.51:021][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.32.51:021][982]PIE: New page: PIE session: TestMap (25 Jan 2018 19:32:51)
+[2018.01.25-19.32.51:021][982]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.32.51:038][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016980s)
+[2018.01.25-19.32.51:039][982]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.32.51:039][982]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2018.01.25-19.32.51:039][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.017910s)
+[2018.01.25-19.32.51:064][982]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.32.51:071][982]LogInit: FAudioDevice initialized.
+[2018.01.25-19.32.51:104][982]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.32.51:107][982]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.32.51
+[2018.01.25-19.32.51:107][982]LogWorld: Bringing up level for play took: 0.002102
+[2018.01.25-19.32.51:109][982]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.651
+[2018.01.25-19.32.51:109][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.32.55:097][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.32.55:129][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.32.59:864][979]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2018.01.25-19.33.00:288][979]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-19.33.00:358][979]LogSlate: Took 0.003437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.25-19.33.00:631][980]LogSlate: Took 0.003826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.25-19.35.43:290][864]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.25-19.35.43:331][864]LogBlueprint:Error: [Compiler ThirdPersonCharacter] Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.25-19.35.43:481][864]BlueprintEditorCompileResults:Error: Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2018.01.25-19.35.43:482][864]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0492.08] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 191 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.25-19.35.53:158][702]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.25-19.35.53:772][725]LogSavePackage: Save=173.18ms
+[2018.01.25-19.35.53:772][725]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacterC16DE3C44D8635EC32E21CA12E751DDC.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.25-19.35.53:778][725]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.25-19.35.56:152][983]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.35.56:169][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.35.56:169][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.35.56:169][983]PIE: New page: PIE session: TestMap (25 Jan 2018 19:35:56)
+[2018.01.25-19.35.56:169][983]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.35.56:188][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018284s)
+[2018.01.25-19.35.56:188][983]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.35.56:189][983]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.01.25-19.35.56:189][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.019393s)
+[2018.01.25-19.35.56:220][983]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.35.56:226][983]LogInit: FAudioDevice initialized.
+[2018.01.25-19.35.56:262][983]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.35.56:265][983]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.35.56
+[2018.01.25-19.35.56:265][983]LogWorld: Bringing up level for play took: 0.002228
+[2018.01.25-19.35.56:267][983]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.191
+[2018.01.25-19.35.56:267][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.01:344][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.01:376][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.13:656][ 21]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.25-19.36.15:054][163]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.36.15:065][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.15:065][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.36.15:065][163]PIE: New page: PIE session: TestMap (25 Jan 2018 19:36:15)
+[2018.01.25-19.36.15:065][163]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.36.15:085][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019695s)
+[2018.01.25-19.36.15:086][163]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.36.15:086][163]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2018.01.25-19.36.15:086][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.020758s)
+[2018.01.25-19.36.15:120][163]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.36.15:125][163]LogInit: FAudioDevice initialized.
+[2018.01.25-19.36.15:160][163]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.36.15:163][163]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.36.15
+[2018.01.25-19.36.15:163][163]LogWorld: Bringing up level for play took: 0.002131
+[2018.01.25-19.36.15:165][163]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.707
+[2018.01.25-19.36.15:165][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.34:096][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.34:126][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.46:933][925]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.25-19.36.48:100][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.36.48:111][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.36.48:111][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.36.48:111][ 45]PIE: New page: PIE session: TestMap (25 Jan 2018 19:36:48)
+[2018.01.25-19.36.48:111][ 45]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.36.48:127][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015947s)
+[2018.01.25-19.36.48:128][ 45]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.36.48:128][ 45]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.01.25-19.36.48:128][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016866s)
+[2018.01.25-19.36.48:162][ 45]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.36.48:168][ 45]LogInit: FAudioDevice initialized.
+[2018.01.25-19.36.48:196][ 45]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.36.48:199][ 45]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.36.48
+[2018.01.25-19.36.48:199][ 45]LogWorld: Bringing up level for play took: 0.002177
+[2018.01.25-19.36.48:201][ 45]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.257
+[2018.01.25-19.36.48:201][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.02:501][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.02:532][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.06:278][196]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.37.06:292][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.06:292][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.37.06:292][196]PIE: New page: PIE session: TestMap (25 Jan 2018 19:37:06)
+[2018.01.25-19.37.06:292][196]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.37.06:308][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015853s)
+[2018.01.25-19.37.06:309][196]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.37.06:309][196]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2018.01.25-19.37.06:309][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016745s)
+[2018.01.25-19.37.06:340][196]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.37.06:346][196]LogInit: FAudioDevice initialized.
+[2018.01.25-19.37.06:392][196]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.37.06:396][196]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.37.06
+[2018.01.25-19.37.06:396][196]LogWorld: Bringing up level for play took: 0.002410
+[2018.01.25-19.37.06:405][196]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.053
+[2018.01.25-19.37.06:405][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.10:721][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.10:765][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.11:698][804]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.37.11:712][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.11:712][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.37.11:712][804]PIE: New page: PIE session: TestMap (25 Jan 2018 19:37:11)
+[2018.01.25-19.37.11:712][804]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.37.11:727][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014886s)
+[2018.01.25-19.37.11:727][804]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.37.11:727][804]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2018.01.25-19.37.11:728][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.015832s)
+[2018.01.25-19.37.11:761][804]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.37.11:767][804]LogInit: FAudioDevice initialized.
+[2018.01.25-19.37.11:813][804]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.37.11:817][804]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.37.11
+[2018.01.25-19.37.11:817][804]LogWorld: Bringing up level for play took: 0.002363
+[2018.01.25-19.37.11:827][804]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.632
+[2018.01.25-19.37.11:827][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.17:070][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.37.17:109][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.20:492][921]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.25-19.38.21:100][949]LogSavePackage: Save=178.02ms
+[2018.01.25-19.38.21:100][949]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacter4386438049FF475CF8A6BEB630EC3D50.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.25-19.38.21:105][949]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.25-19.38.21:539][998]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.38.21:554][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.21:555][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-19.38.21:555][998]PIE: New page: PIE session: TestMap (25 Jan 2018 19:38:21)
+[2018.01.25-19.38.21:555][998]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.38.21:573][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018416s)
+[2018.01.25-19.38.21:574][998]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.38.21:574][998]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2018.01.25-19.38.21:574][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.019615s)
+[2018.01.25-19.38.21:603][998]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.38.21:609][998]LogInit: FAudioDevice initialized.
+[2018.01.25-19.38.21:662][998]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.38.21:666][998]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.38.21
+[2018.01.25-19.38.21:666][998]LogWorld: Bringing up level for play took: 0.002344
+[2018.01.25-19.38.21:675][998]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.782
+[2018.01.25-19.38.21:676][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.33:315][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.33:361][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.48:701][ 11]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.38.48:714][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.38.48:715][ 11]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.38.48:715][ 11]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.38.48:847][ 11]LogPlayLevel: PlayLevel: Blueprint regeneration took 132 ms (1 blueprints)
+[2018.01.25-19.38.48:848][ 11]PIE: New page: PIE session: TestMap (25 Jan 2018 19:38:48)
+[2018.01.25-19.38.48:848][ 11]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.38.48:863][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015598s)
+[2018.01.25-19.38.48:864][ 11]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.38.48:864][ 11]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2018.01.25-19.38.48:864][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016730s)
+[2018.01.25-19.38.48:893][ 11]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.38.48:899][ 11]LogInit: FAudioDevice initialized.
+[2018.01.25-19.38.48:951][ 11]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.38.48:954][ 11]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.38.48
+[2018.01.25-19.38.48:954][ 11]LogWorld: Bringing up level for play took: 0.002527
+[2018.01.25-19.38.48:964][ 11]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.506
+[2018.01.25-19.38.48:964][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.19:760][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.19:799][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.39:015][917]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.39.39:029][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.39:029][917]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.39.39:029][917]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.39.39:154][917]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2018.01.25-19.39.39:154][917]PIE: New page: PIE session: TestMap (25 Jan 2018 19:39:39)
+[2018.01.25-19.39.39:154][917]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.39.39:169][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015442s)
+[2018.01.25-19.39.39:170][917]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.39.39:170][917]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.01.25-19.39.39:170][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016631s)
+[2018.01.25-19.39.39:199][917]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.39.39:205][917]LogInit: FAudioDevice initialized.
+[2018.01.25-19.39.39:254][917]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.39.39:257][917]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.39.39
+[2018.01.25-19.39.39:258][917]LogWorld: Bringing up level for play took: 0.002674
+[2018.01.25-19.39.39:267][917]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.809
+[2018.01.25-19.39.39:267][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.48:088][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.39.48:127][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.01:553][512]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.40.01:566][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.01:567][512]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.40.01:567][512]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.40.01:696][512]LogPlayLevel: PlayLevel: Blueprint regeneration took 129 ms (1 blueprints)
+[2018.01.25-19.40.01:696][512]PIE: New page: PIE session: TestMap (25 Jan 2018 19:40:01)
+[2018.01.25-19.40.01:696][512]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.40.01:712][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015487s)
+[2018.01.25-19.40.01:712][512]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.40.01:713][512]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2018.01.25-19.40.01:713][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016523s)
+[2018.01.25-19.40.01:740][512]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.40.01:746][512]LogInit: FAudioDevice initialized.
+[2018.01.25-19.40.01:794][512]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.40.01:797][512]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.40.01
+[2018.01.25-19.40.01:797][512]LogWorld: Bringing up level for play took: 0.002211
+[2018.01.25-19.40.01:808][512]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.65
+[2018.01.25-19.40.01:808][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.34:481][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.34:524][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.59:026][256]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.40.59:041][256]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.40.59:041][256]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.40.59:041][256]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.40.59:173][256]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2018.01.25-19.40.59:173][256]PIE: New page: PIE session: TestMap (25 Jan 2018 19:40:59)
+[2018.01.25-19.40.59:173][256]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.40.59:189][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015677s)
+[2018.01.25-19.40.59:189][256]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.40.59:189][256]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.01.25-19.40.59:190][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016696s)
+[2018.01.25-19.40.59:218][256]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.40.59:224][256]LogInit: FAudioDevice initialized.
+[2018.01.25-19.40.59:270][256]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.40.59:273][256]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.40.59
+[2018.01.25-19.40.59:274][256]LogWorld: Bringing up level for play took: 0.002776
+[2018.01.25-19.40.59:283][256]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.825
+[2018.01.25-19.40.59:283][256]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.05:058][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.05:101][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.15:292][110]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.41.15:305][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.15:305][110]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.41.15:305][110]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.41.15:429][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2018.01.25-19.41.15:429][110]PIE: New page: PIE session: TestMap (25 Jan 2018 19:41:15)
+[2018.01.25-19.41.15:429][110]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.41.15:445][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015831s)
+[2018.01.25-19.41.15:446][110]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.41.15:446][110]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.01.25-19.41.15:446][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016964s)
+[2018.01.25-19.41.15:475][110]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.41.15:481][110]LogInit: FAudioDevice initialized.
+[2018.01.25-19.41.15:532][110]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.41.15:535][110]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.41.15
+[2018.01.25-19.41.15:535][110]LogWorld: Bringing up level for play took: 0.002301
+[2018.01.25-19.41.15:545][110]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 1.087
+[2018.01.25-19.41.15:545][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.18:764][479]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.01.25-19.41.26:140][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.26:179][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.38:694][839]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.41.38:707][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.38:708][839]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.41.38:708][839]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.41.38:836][839]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2018.01.25-19.41.38:836][839]PIE: New page: PIE session: TestMap (25 Jan 2018 19:41:38)
+[2018.01.25-19.41.38:836][839]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.41.38:851][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015892s)
+[2018.01.25-19.41.38:853][839]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.41.38:853][839]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.01.25-19.41.38:854][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.017006s)
+[2018.01.25-19.41.38:884][839]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.41.38:889][839]LogInit: FAudioDevice initialized.
+[2018.01.25-19.41.38:937][839]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.41.38:941][839]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.41.38
+[2018.01.25-19.41.38:941][839]LogWorld: Bringing up level for play took: 0.002508
+[2018.01.25-19.41.38:951][839]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.492
+[2018.01.25-19.41.38:951][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.44:201][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.41.44:245][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.42.18:541][509]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.25-19.42.18:555][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.42.18:556][509]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-19.42.18:556][509]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.01.25-19.42.18:685][509]LogPlayLevel: PlayLevel: Blueprint regeneration took 129 ms (1 blueprints)
+[2018.01.25-19.42.18:685][509]PIE: New page: PIE session: TestMap (25 Jan 2018 19:42:18)
+[2018.01.25-19.42.18:685][509]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.01.25-19.42.18:701][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015697s)
+[2018.01.25-19.42.18:701][509]LogAIModule: Creating AISystem for world TestMap
+[2018.01.25-19.42.18:702][509]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.01.25-19.42.18:702][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.016790s)
+[2018.01.25-19.42.18:731][509]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.25-19.42.18:737][509]LogInit: FAudioDevice initialized.
+[2018.01.25-19.42.18:784][509]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.25-19.42.18:788][509]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.01.25-19.42.18
+[2018.01.25-19.42.18:788][509]LogWorld: Bringing up level for play took: 0.002487
+[2018.01.25-19.42.18:797][509]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.339
+[2018.01.25-19.42.18:797][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.42.31:247][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.42.31:288][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.01.25-19.42.40:935][105]LogSavePackage: Save=178.14ms
+[2018.01.25-19.42.40:935][105]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/ThirdPersonCharacter7FD99A7B4979324028C98798D6E1A6E9.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.25-19.42.40:939][105]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.25-19.42.43:678][375]LogSavePackage: Save=263.80ms
+[2018.01.25-19.42.43:678][375]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/TestMapC03BF4E145D3A2AE622351B1EB2C2FFB.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap'
+[2018.01.25-19.42.43:683][375]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap
+[2018.01.25-19.42.43:698][375]LogFileHelpers: Saving map 'TestMap' took 0.358
+[2018.01.25-19.42.43:908][375]LogSavePackage: Save=198.24ms
+[2018.01.25-19.42.43:908][375]LogSavePackage: Moving 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/TestMap_BuiltData4751BD21452C56FD20F6478D0DBFFBCF.tmp' to 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_BuiltData.uasset'
+[2018.01.25-19.42.43:921][375]LogSavePackage:Display: Finished SavePackage F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_BuiltData.uasset
+[2018.01.25-19.42.46:031][600]Cmd: QUIT_EDITOR
+[2018.01.25-19.42.46:077][600]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.25-19.42.46:088][600]LogExit: Preparing to exit.
+[2018.01.25-19.42.47:369][600]LogExit: Editor shut down
+[2018.01.25-19.42.47:371][600]LogExit: Transaction tracking system shut down
+[2018.01.25-19.42.47:457][600]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.25-19.42.47:458][600]LogExit: Object subsystem successfully closed.
+[2018.01.25-19.42.47:477][600]LogD3D11RHI: Shutdown
+[2018.01.25-19.42.47:477][600]LogD3D11RHI: CleanupD3DDevice
+[2018.01.25-19.42.47:553][600]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.25-19.42.47:570][600]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.01.25-19.42.47:570][600]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (524)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.25-19.42.47:571][600]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.25-19.42.47:571][600]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.25-19.42.47:572][600]LogDirectoryWatcher: A directory notification for 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Collections/' was aborted.
+[2018.01.25-19.42.47:572][600]LogDirectoryWatcher: A directory notification for 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/Developers/Harry/Collections/' was aborted.
+[2018.01.25-19.42.47:572][600]LogDirectoryWatcher: A directory notification for 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Saved/Collections/' was aborted.
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.25-19.42.47:572][600]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.25-19.42.47:573][600]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.25-19.42.47:574][600]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.25-19.42.47:574][600]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.25-19.42.47:574][600]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.25-19.42.47:574][600]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.25-19.42.47:574][600]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.25-19.42.47:888][600]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.25-19.42.47:888][600]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.25-19.42.47:888][600]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.25-19.42.47:889][600]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.25-19.42.47:890][600]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.25-19.42.47:891][600]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.25-19.42.47:946][600]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.25-19.42.47:946][600]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.25-19.42.47:946][600]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.25-19.42.47:947][600]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.25-19.42.47:952][600]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.25-19.42.47:952][600]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.25-19.42.47:952][600]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.25-19.42.47:953][600]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.25-19.42.47:978][600]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.25-19.42.47:979][600]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.25-19.42.47:980][600]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.25-19.42.48:081][600]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.25-19.42.48:182][600]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.25-19.42.48:183][600]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.25-19.42.48:183][600]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.25-19.42.48:184][600]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.25-19.42.48:184][600]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.25-19.42.48:185][600]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.25-19.42.48:186][600]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.25-19.42.48:186][600]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.25-19.42.48:186][600]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.25-19.42.48:187][600]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.25-19.42.48:187][600]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.25-19.42.48:187][600]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.25-19.42.48:187][600]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.25-19.42.48:187][600]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.25-19.42.48:189][600]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.25-19.42.48:254][600]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.25-19.42.48:254][600]LogDirectoryWatcher: A directory notification for 'F:/Uni Work/Journeyman/JMan_Team5/Team5/Content/' was aborted.
+[2018.01.25-19.42.48:254][600]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.25-19.42.48:254][600]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.25-19.42.48:256][600]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.25-19.42.48:266][600]LogDerivedDataCache: Shutdown
+[2018.01.25-19.42.48:266][600]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.25-19.42.48:266][600]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.25-19.42.48:266][600]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.25-19.42.48:267][600]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.25-19.42.48:268][600]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.25-19.42.48:268][600]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.25-19.42.48:268][600]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.25-19.42.48:268][600]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B02A23FA3-434F-D015-C855-CCB46474DDE0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=200afe924d0ae09043bae88cf407267c%7C7ac44ea565504d8d9cbfbcc309b4793b%7Cc7171cf2-60b9-443c-8f19-ff7ee10cea88&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.25-19.42.48:284][600]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.25-19.42.48:285][600]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.25-19.42.48:285][600]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.25-19.42.48:285][600]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.25-19.42.48:285][600]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.25-19.42.48:286][600]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.25-19.42.48:286][600]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.25-19.42.48:286][600]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.25-19.42.48:286][600]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.25-19.42.48:287][600]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.25-19.42.48:289][600]LogExit: Exiting.
+[2018.01.25-19.42.48:298][600]Log file closed, 01/25/18 19:42:48
