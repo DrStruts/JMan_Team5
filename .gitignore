@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled Object files
 *.slo
 *.lo
@@ -66,6 +67,8 @@ DerivedDataCache/*
 *.swp
 *.swo
 .ctrlp_cache/
+=======
+>>>>>>> refs/remotes/origin/master
 
 Team5/Intermediate/AssetRegistryCache/c90e3f55\.bin
 
