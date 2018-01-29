@@ -1,10 +1,10 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/29/2018, 14:01:10
-             Machine name: TU45333
-               Machine Id: {A3F96873-6734-4DA4-8011-79566C263534}
-         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171129-2100)
+      Time of this report: 1/29/2018, 16:24:04
+             Machine name: TU45327
+               Machine Id: {7F1E1569-4EEE-4339-8980-E24037B6CEC6}
+         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171008-1615)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
              System Model: HP Z640 Workstation
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 9004MB used, 28543MB available
+                Page File: 8009MB used, 29538MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -260,16 +260,6 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
-            Description: Stereo Mix (Realtek High Definition Audio)
-  Default Sound Capture: Yes
-  Default Voice Capture: Yes
-            Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.7427 (English)
-      Driver Attributes: Final Retail
-          Date and Size: 4/6/2015 13:36:26, 4372952 bytes
-              Cap Flags: 0x1
-           Format Flags: 0xFFFFF
-
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -307,22 +297,22 @@ Vendor/Product ID: 0x03F0, 0x034A
 Vendor/Product ID: 0x03F0, 0x034A
         FF Driver: n/a
 
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
       Device Name: Controller (XBOX 360 For Windows)
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x045E, 0x028E
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -336,6 +326,45 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/16/2016 11:41:55, 535904 bytes
 | 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x03F0, 0x034A
+| | Location: Port_#0006.Hub_#0003
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 10/9/2017 02:30:18, 169304 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x03F0, 0x034A
+| | | Location: 0000.0014.0000.006.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
+| | | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
+| | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x03F0, 0x034A
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 9/15/2016 16:43:23, 39424 bytes
+| | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
+| | 
++-+ USB Input Device
+| | Vendor/Product ID: 0x03F0, 0x094A
+| | Location: Port_#0012.Hub_#0003
+| | Matching Device ID: USB\Class_03&SubClass_01
+| | Service: HidUsb
+| | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
+| | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
+| | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
+| | 
+| +-+ HID-compliant mouse
+| | | Vendor/Product ID: 0x03F0, 0x094A
+| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | Service: mouhid
+| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
+| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
+| | 
 +-+ Wacom Tablet
 | | Vendor/Product ID: 0x056A, 0x0303
 | | Location: Port_#0004.Hub_#0003
@@ -354,45 +383,6 @@ USB Devices
 | | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
 | | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
 | | | Driver: wdfcoinstaller01009.dll, 12/11/2012 22:12:00, 1721576 bytes
-| | 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x03F0, 0x094A
-| | Location: Port_#0011.Hub_#0003
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
-| | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
-| | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
-| | 
-| +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x03F0, 0x094A
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
-| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
-| | 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0012.Hub_#0003
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 10/9/2017 02:30:18, 169304 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.012.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 8/6/2016 03:47:49, 38400 bytes
-| | | Driver: hidclass.sys, 10/15/2016 03:55:50, 156672 bytes
-| | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 9/15/2016 16:43:23, 39424 bytes
-| | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
 
 ----------------
 Gameport Devices
@@ -406,13 +396,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 123.0 GB
+ Free Space: 189.4 GB
 Total Space: 487.9 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1884.5 GB
+ Free Space: 1878.7 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
@@ -937,9 +927,6 @@ CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.14393.1066
 AC-3 ACM Codec,0x00200000,1,1,quartz.dll,10.00.14393.1066
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.14393.1066
 
-Audio Capture Sources:
-Stereo Mix (Realtek High Definition Audio),0x00200000,0,0,qcap.dll,10.00.14393.0000
-
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.1715
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1715
@@ -1394,17 +1381,17 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 129218834244, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket , type 0
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Substance Painter 2.exe
-P2: 2.3.0.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
+P1: explorer.exe
+P2: 10.0.14393.1532
+P3: 5965adb0
+P4: 6af0
+P5: 33554688
 P6: 
 P7: 
 P8: 
@@ -1413,17 +1400,17 @@ P10:
 
 
 +++ WER1 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 129527788802, type 5
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_05AC&PID_12A8&REV_0702
-P3: 
-P4: 
-P5: 
+P1: explorer.exe
+P2: 10.0.14393.1532
+P3: 5965adb0
+P4: e3f2
+P5: 33554432
 P6: 
 P7: 
 P8: 
@@ -1432,15 +1419,15 @@ P10:
 
 
 +++ WER2 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 129213646418, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_05AC&PID_12A8&REV_0702
-P3: 
+P1: Substance Designer.exe
+P2: 5.5.1.0
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
@@ -1452,17 +1439,17 @@ P10:
 
 +++ WER3 +++:
 Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: explorer.exe
+P2: 10.0.14393.1532
+P3: 5965adb0
+P4: e3f2
+P5: 33554432
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1470,21 +1457,21 @@ P10:
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 129556221299, type 5
+Event Name: CLR20r3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
+P1: AppsAnywhere.exe
+P2: 1.2.0.0
+P3: 5970af26
+P4: System.Management
+P5: 4.7.2102.0
+P6: 5937113d
+P7: 25c
+P8: 118
+P9: PSZQOADHX1U5ZAHBHOHGHLDGIY4QIXHX
 P10: 
 
 
@@ -1496,7 +1483,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_1E7D&PID_2C2E&REV_0035
+P2: HID\VID_1EA7&PID_0907&REV_0300&MI_01
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1508,25 +1495,6 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER7 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1534,7 +1502,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_1E7D&PID_2C2E&REV_0035
+P2: HID\VID_1EA7&PID_0907&REV_0300&MI_01
 P3: 
 P4: 
 P5: 
@@ -1545,7 +1513,7 @@ P9:
 P10: 
 
 
-+++ WER8 +++:
++++ WER7 +++:
 Fault bucket , type 0
 Event Name: PnPRequestAdditionalSoftware
 Response: Not available
@@ -1553,7 +1521,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P2: HID\VID_046D&PID_C539&REV_3904&MI_02&Col01
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1564,7 +1532,7 @@ P9:
 P10: 
 
 
-+++ WER9 +++:
++++ WER8 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1572,11 +1540,30 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
+P2: HID\VID_046D&PID_C539&REV_3904&MI_02&Col01
 P3: 
 P4: 
 P5: 
 P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER9 +++:
+Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_046D&PID_C539&REV_3904&MI_01
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
 P7: 
 P8: 
 P9: 
