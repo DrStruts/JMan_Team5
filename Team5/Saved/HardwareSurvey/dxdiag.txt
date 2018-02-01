@@ -1,10 +1,10 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/30/2018, 18:30:16
-             Machine name: TU45339
-               Machine Id: {91DE2E2C-46E3-48B1-9A81-2CB45FF3A06A}
-         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171129-2100)
+      Time of this report: 2/1/2018, 10:45:28
+             Machine name: TU45377
+               Machine Id: {44826D45-CF96-4C7E-986F-B34A00B4ABCC}
+         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171231-1800)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
              System Model: HP Z640 Workstation
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 10059MB used, 27488MB available
+                Page File: 7758MB used, 29789MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -83,7 +83,7 @@ Hybrid Graphics GPU: Not Supported
           Device ID: 0x17C8
           SubSys ID: 0x139619DA
         Revision ID: 0x00A1
- Driver Strong Name: oem28.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
+ Driver Strong Name: oem27.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
      Rank Of Driver: 00D12001
         Video Accel: 
         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -175,7 +175,7 @@ Hybrid Graphics GPU: Not Supported
           Device ID: 0x17C8
           SubSys ID: 0x139619DA
         Revision ID: 0x00A1
- Driver Strong Name: oem28.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
+ Driver Strong Name: oem27.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
      Rank Of Driver: 00D12001
         Video Accel: 
         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -297,6 +297,24 @@ Vendor/Product ID: 0x03F0, 0x034A
 Vendor/Product ID: 0x045E, 0x028E
         FF Driver: n/a
 
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
 Poll w/ Interrupt: No
 
 -----------
@@ -308,6 +326,25 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/16/2016 11:41:55, 535904 bytes
 | 
++-+ Wacom Tablet
+| | Vendor/Product ID: 0x056A, 0x0303
+| | Location: Port_#0003.Hub_#0003
+| | Matching Device ID: USB\VID_056A&PID_0303
+| | Upper Filters: mshidkmdf
+| | Service: WacHidRouterPro
+| | Driver: wachidrouter.sys, 4/28/2017 23:21:30, 122512 bytes
+| | Driver: wdfcoinstaller01011.dll, 4/28/2017 23:21:31, 1804688 bytes
+| | 
+| +-+ HID-Compliant Mouse
+| | | Vendor/Product ID: 0x056A, 0x0303
+| | | Matching Device ID: HID\VID_056A&PID_0303&Col01
+| | | Upper Filters: wacomrouterfilter
+| | | Service: mouhid
+| | | Driver: wacomrouterfilter.sys, 4/11/2017 18:23:37, 24040 bytes
+| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
+| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
+| | | Driver: wdfcoinstaller01009.dll, 4/11/2012 22:34:23, 1721576 bytes
+| | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x034A
 | | Location: Port_#0011.Hub_#0003
@@ -359,22 +396,16 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 167.8 GB
+ Free Space: 86.3 GB
 Total Space: 487.9 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1907.4 GB
+ Free Space: 1906.6 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
-
-      Drive: F:
- Free Space: 871.3 GB
-Total Space: 953.9 GB
-File System: NTFS
-      Model: Seagate Expansion SCSI Disk Device
 
       Drive: E:
       Model: hp BDRW   UJ272
@@ -1351,35 +1382,35 @@ Diagnostics
 Windows Error Reporting:
 +++ WER0 +++:
 Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Event Name: AppHangTransient
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_256C&PID_006E&REV_0000&MI_01
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
-P7: 
+P1: ZBrush.exe
+P2: 4.8.0.0
+P3: 595381a0
+P4: unknown
+P5: unknown
+P6: unknown
+P7: unknown
 P8: 
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 1365853204420674046, type 5
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_256C&PID_006E&REV_0000&MI_01
-P3: 
-P4: 
-P5: 
+P1: Substance Painter 2.exe
+P2: 2.3.0.0
+P3: 57dad28f
+P4: 7d1c
+P5: 134217728
 P6: 
 P7: 
 P8: 
@@ -1388,15 +1419,15 @@ P10:
 
 
 +++ WER2 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 129218834244, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_02&Col02
-P3: 
+P1: Substance Painter 2.exe
+P2: 2.3.0.0
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
@@ -1407,18 +1438,18 @@ P10:
 
 
 +++ WER3 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Fault bucket 129364076343, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_02&Col03
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: ZBrush.exe
+P2: 4.8.0.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1426,37 +1457,37 @@ P10:
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 109136562892, type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_02&Col03
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: IEXPLORE.EXE
+P2: 11.0.14393.1715
+P3: 59b0de5a
+P4: StackHash_ae59
+P5: 10.0.14393.1715
+P6: 59b0d8f3
+P7: c0000374
+P8: PCH_7A_FROM_ntdll+0x0006EB2C
 P9: 
 P10: 
 
 
 +++ WER5 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_01&Col02
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1464,53 +1495,53 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 116243555252, type 5
+Event Name: BEX64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_01&Col02
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
+P1: svchost.exe_AppReadiness
+P2: 10.0.14393.0
+P3: 57899b1c
+P4: StackHash_34a1
+P5: 0.0.0.0
+P6: 00000000
+P7: PCH_84_FROM_PGHook+0x000000000003BA26
+P8: c0000005
+P9: 0000000000000008
 P10: 
 
 
 +++ WER7 +++:
 Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Event Name: BEX64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_01&Col03
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
-P7: 
-P8: 
-P9: 
+P1: svchost.exe_AppReadiness
+P2: 10.0.14393.0
+P3: 57899b1c
+P4: StackHash_34a1
+P5: 0.0.0.0
+P6: 00000000
+P7: PCH_84_FROM_PGHook+0x000000000003BA26
+P8: c0000005
+P9: 0000000000000008
 P10: 
 
 
 +++ WER8 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 129465429524, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_01&Col03
-P3: 
+P1: Adobe Media Encoder.exe
+P2: 11.1.2.35
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
@@ -1521,18 +1552,18 @@ P10:
 
 
 +++ WER9 +++:
-Fault bucket , type 0
-Event Name: PnPRequestAdditionalSoftware
+Fault bucket 129520556241, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: HID\VID_256C&PID_006E&REV_0000&MI_00&Col01
-P3: 10.0.0.0
-P4: 0409
-P5: input.inf
-P6: *
+P1: UE4Game.exe
+P2: 4.16.3.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
