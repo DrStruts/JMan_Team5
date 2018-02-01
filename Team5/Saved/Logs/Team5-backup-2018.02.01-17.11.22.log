@@ -1,0 +1,1119 @@
+﻿Log file open, 02/01/18 15:01:44
+LogInit:Display: Running engine for game: Team5
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-74352487) SRandInit(-74352486).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.068151
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.01-15.01.45:086][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-15.01.45:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.01-15.01.45:120][  0]LogInit: Computer: WILL-PC
+[2018.02.01-15.01.45:120][  0]LogInit: User: Will
+[2018.02.01-15.01.45:120][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.01-15.01.45:120][  0]LogInit: High frequency timer resolution =2.648435 MHz
+[2018.02.01-15.01.45:120][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.01-15.01.45:120][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.01-15.01.45:120][  0]LogMemory: Process Physical Memory: 272.49 MB used, 272.49 MB peak
+[2018.02.01-15.01.45:120][  0]LogMemory: Process Virtual Memory: 258.70 MB used, 258.70 MB peak
+[2018.02.01-15.01.45:120][  0]LogMemory: Physical Memory: 4262.60 MB used,  12058.00 MB free, 16320.60 MB total
+[2018.02.01-15.01.45:120][  0]LogMemory: Virtual Memory: 654.42 MB used,  12058.00 MB free, 134217728.00 MB total
+[2018.02.01-15.01.45:686][  0]LogInit: Using OS detected language (en-US).
+[2018.02.01-15.01.45:686][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.01-15.01.45:810][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.01-15.01.47:433][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.01-15.01.47:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.02.01-15.01.47:497][  0]LogD3D11RHI:       6052/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.01-15.01.47:501][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.01-15.01.47:501][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.01-15.01.47:501][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.01-15.01.47:506][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.01-15.01.47:506][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.01-15.01.47:506][  0]LogWindows: EnumDisplayDevices:
+[2018.02.01-15.01.47:506][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.02.01-15.01.47:507][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.01-15.01.47:507][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.01-15.01.47:507][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.01-15.01.47:507][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.01-15.01.47:507][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.02.01-15.01.47:507][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.01-15.01.47:507][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.01-15.01.47:507][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.01-15.01.47:537][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.01-15.01.47:733][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.01-15.01.47:830][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Intermediate/Shaders/WorkingDirectory/9080/).
+[2018.02.01-15.01.47:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Will/AppData/Local/Temp/UnrealShaderWorkingDir/A1BDA47349A9FB9826400E9DAFE46BF7/'.
+[2018.02.01-15.01.47:834][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.01-15.01.50:510][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.01-15.01.50:582][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.01-15.01.50:629][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.01-15.01.50:677][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.01-15.01.50:729][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.01-15.01.50:776][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.01-15.01.50:826][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.01-15.01.50:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.01-15.01.50:914][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.01-15.01.50:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.01-15.01.51:012][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.01-15.01.51:058][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.01-15.01.51:105][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.01-15.01.51:151][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.01-15.01.51:197][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.01-15.01.51:298][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.01-15.01.51:298][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.01-15.01.51:340][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.01-15.01.51:477][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.01-15.01.51:528][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.01-15.01.51:610][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.01-15.01.51:659][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.01-15.01.51:706][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.01-15.01.51:753][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.01-15.01.51:753][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.01-15.01.52:875][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.01-15.01.53:488][  0]LogDerivedDataCache: Loaded boot cache 0.61s 102MB C:/Users/Will/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.01-15.01.53:488][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Will/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.01-15.01.53:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.01-15.01.53:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.01-15.01.53:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.01-15.01.53:489][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.01-15.01.53:595][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.01-15.01.53:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Will/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.01-15.01.53:692][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.01-15.01.53:730][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.01-15.01.53:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-15.01.53:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-15.01.58:374][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-15.01.58:970][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.01-15.01.59:582][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.01-15.01.59:718][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.01-15.01.59:833][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.01-15.01.59:833][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.01-15.01.59:833][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.01-15.02.03:596][  0]LogNetVersion: Team5 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 224845630)
+[2018.02.01-15.02.03:915][  0]LogAssetRegistry: FAssetRegistry took 0.0404 seconds to start up
+[2018.02.01-15.02.04:070][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.104170 seconds
+[2018.02.01-15.02.04:076][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.01-15.02.04:076][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.01-15.02.04:076][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.01-15.02.04:125][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.01-15.02.18:680][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.01-15.02.18:729][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.01-15.02.20:016][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.01-15.02.20:665][  0]SourceControl: Info Source control is disabled
+[2018.02.01-15.02.21:940][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.01-15.02.23:019][  0]LogEngine: Initializing Engine...
+[2018.02.01-15.02.23:046][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.01-15.02.23:513][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.01-15.02.23:513][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.01-15.02.23:808][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.01-15.02.23:886][  0]LogInit: XAudio2 using 'Speakers (2- Core 1)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2018.02.01-15.02.23:918][  0]LogInit: FAudioDevice initialized.
+[2018.02.01-15.02.23:987][  0]LogDerivedDataCache: Saved boot cache 0.07s 102MB C:/Users/Will/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.01-15.02.24:004][  0]LogInit: Texture streaming: Enabled
+[2018.02.01-15.02.24:150][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.01-15.02.24:780][  0]LogInit: Transaction tracking system initialized
+[2018.02.01-15.02.25:671][  0]BlueprintLog: New page: Editor Load
+[2018.02.01-15.02.28:508][  0]LocalizationService: Info Localization service is disabled
+[2018.02.01-15.02.30:865][  0]LogConsoleResponse:Display: 
+[2018.02.01-15.02.32:295][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/' took 0.02s
+[2018.02.01-15.02.32:295][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.01-15.02.32:296][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.01-15.02.36:539][  0]Cmd: MAP LOAD FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.01-15.02.36:567][  0]LightingResults: New page: Lighting Build
+[2018.02.01-15.02.36:763][  0]MapCheck: New page: Map Check
+[2018.02.01-15.02.36:763][  0]LightingResults: New page: Lighting Build
+[2018.02.01-15.02.38:279][  0]LogMaterial: Missing cached shader map for material M_PostProcess2_base, compiling. 
+[2018.02.01-15.02.38:660][  0]LogTexture:Display: Building textures: ContainerLP_Material__25_BaseColor1 (AutoDXT, 2048X2048)
+[2018.02.01-15.02.41:833][  0]LogTexture:Display: Building textures: ContainerLP_Material__25_OcclusionRoughnessMetallic1 (AutoDXT, 2048X2048)
+[2018.02.01-15.02.45:202][  0]LogTexture:Display: Building textures: ContainerLP_Material__25_Normal__1_ (BC5, 2048X2048)
+[2018.02.01-15.02.45:752][  0]LogMaterial: Missing cached shader map for material M_Container, compiling. 
+[2018.02.01-15.02.45:819][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.01-15.02.46:165][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:170][  0]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:175][  0]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:185][  0]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:194][  0]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:199][  0]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:204][  0]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:208][  0]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:212][  0]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.02.01-15.02.46:214][  0]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2018.02.01-15.02.46:215][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:219][  0]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.02.01-15.02.46:220][  0]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 64X64)
+[2018.02.01-15.02.46:222][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:254][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:259][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:278][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.02.01-15.02.46:304][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:326][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:334][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.02.01-15.02.46:352][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.01-15.02.46:509][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.02.01-15.02.46:526][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.02.01-15.02.46:542][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.02.01-15.02.46:561][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.02.01-15.02.46:575][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.02.01-15.02.46:591][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.02.01-15.02.46:614][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.02.01-15.02.46:632][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.02.01-15.02.46:650][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.02.01-15.02.46:661][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2018.02.01-15.02.46:670][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.02.01-15.02.46:684][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.02.01-15.02.46:694][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 64X64)
+[2018.02.01-15.02.46:700][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.02.01-15.02.46:719][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.02.01-15.02.46:736][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.02.01-15.02.46:753][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.02.01-15.02.46:781][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.02.01-15.02.46:806][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.02.01-15.02.46:826][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.02.01-15.02.46:848][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.02.01-15.02.46:999][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:002][  0]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:011][  0]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:017][  0]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:019][  0]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:021][  0]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:025][  0]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:027][  0]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:029][  0]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.02.01-15.02.47:029][  0]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64)
+[2018.02.01-15.02.47:030][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:032][  0]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 128X64)
+[2018.02.01-15.02.47:032][  0]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 64X32)
+[2018.02.01-15.02.47:035][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:049][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:051][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:088][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 128X64)
+[2018.02.01-15.02.47:111][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:128][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:130][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.02.01-15.02.47:133][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 1024X256)
+[2018.02.01-15.02.47:141][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 256X64)
+[2018.02.01-15.02.47:142][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 256X64)
+[2018.02.01-15.02.47:142][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 256X64)
+[2018.02.01-15.02.47:143][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 256X64)
+[2018.02.01-15.02.47:144][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 128X64)
+[2018.02.01-15.02.47:160][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 256X64)
+[2018.02.01-15.02.47:165][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8, 256X64)
+[2018.02.01-15.02.47:166][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 256X64)
+[2018.02.01-15.02.47:171][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 256X64)
+[2018.02.01-15.02.47:172][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 256X64)
+[2018.02.01-15.02.47:176][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 256X64)
+[2018.02.01-15.02.47:177][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 256X64)
+[2018.02.01-15.02.47:180][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 256X64)
+[2018.02.01-15.02.47:182][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 256X64)
+[2018.02.01-15.02.47:186][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8, 256X64)
+[2018.02.01-15.02.47:188][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8, 256X64)
+[2018.02.01-15.02.47:193][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 128X64)
+[2018.02.01-15.02.47:212][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8, 64X64)
+[2018.02.01-15.02.47:215][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8, 128X64)
+[2018.02.01-15.02.47:215][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8, 32X32)
+[2018.02.01-15.02.47:257][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.02.01-15.02.58:126][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.02.01-15.02.58:170][  0]LogStaticMesh: Building static mesh ContainerLP...
+[2018.02.01-15.02.58:196][  0]LogStaticMesh: Built static mesh [0.04s] /Game/RICHARD_LANE/Container/ContainerLP.ContainerLP
+[2018.02.01-15.02.58:319][  0]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.02.01-15.02.58:353][  0]LogAIModule: Creating AISystem for world TestMap
+[2018.02.01-15.02.58:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.01-15.02.58:721][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.01-15.02.58:789][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.322ms to complete.
+[2018.02.01-15.02.58:789][  0]LogFileHelpers: Loading map 'TestMap' took 22.261
+[2018.02.01-15.03.00:170][  0]LogCollectionManager: Loaded 0 collections in 0.001206 seconds
+[2018.02.01-15.03.00:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Collections/' took 0.01s
+[2018.02.01-15.03.00:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/Developers/Will/Collections/' took 0.01s
+[2018.02.01-15.03.00:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/Collections/' took 0.01s
+[2018.02.01-15.03.00:325][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.01-15.03.00:358][  0]LogContentBrowser: Native class hierarchy populated in 0.0296 seconds. Added 2329 classes and 491 folders.
+[2018.02.01-15.03.00:510][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.01-15.03.01:609][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.01-15.03.01:721][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.01-15.03.01:987][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.01-15.03.02:056][  0]LogSlate: Took 0.008440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.01-15.03.02:067][  0]LogSlate: Took 0.009659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.01-15.03.02:088][  0]LogSlate: Took 0.007157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.01-15.03.02:310][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2018.02.01-15.03.02:608][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.01-15.03.02:725][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.01-15.03.02:725][  0]LogLoad: (Engine Initialization) Total time: 86.00 seconds
+[2018.02.01-15.03.02:725][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.59 seconds
+[2018.02.01-15.03.02:725][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.01-15.03.03:072][  0]LogOcInput: OculusInput pre-init called
+[2018.02.01-15.03.03:072][  0]LogHMD: Starting GearVRController plugin
+[2018.02.01-15.03.03:151][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.01-15.03.03:744][  2]LogAssetRegistry: Asset discovery search completed in 59.8518 seconds
+[2018.02.01-15.03.03:745][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.01-15.03.03:745][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.02.01-15.03.05:746][  9]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() failed to parse available memory from dxdiag report
+[2018.02.01-15.03.05:771][  9]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2018.02.01-15.03.05:771][  9]LogSynthBenchmark:Display: ===============
+[2018.02.01-15.03.05:771][  9]LogSynthBenchmark:Display: Main Processor:
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:          ... 0.026581 s/Run 'RayIntersect'
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:          ... 0.024255 s/Run 'Fractal'
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display: 
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   CPU Perf Index 0: 96.3 (weight 1.00)
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   CPU Perf Index 1: 117.9 (weight 1.50)
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:  
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display: Graphics:
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 1060 6GB'
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   Device Id: 0x1C03
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2018.02.01-15.03.06:025][  9]LogSynthBenchmark:Display:   GPU Memory: 6052/0/8161 MB
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 6.924 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 6.197 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 5.189 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 24.036 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 0.927 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 9.161 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.02.01-15.03.06:084][  9]LogSynthBenchmark:Display:          ... 6.463 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:   GPU second test: 0.10s
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 9.012 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 7.392 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 6.804 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 40.064 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 0.960 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 4.602 s/GigaVert, Confidence=81% 'VertThroughPut1' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 5.503 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 9.012 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 7.392 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 6.804 s/GigaPix, Confidence=89% 'DepTexHeavy'
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 40.064 s/GigaPix, Confidence=89% 'FillOnly'
+[2018.02.01-15.03.06:235][  9]LogSynthBenchmark:Display:          ... 0.960 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:          ... 4.602 s/GigaVert, Confidence=81% 'VertThroughPut1'
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:          ... 5.503 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display: 
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 0: 195.9 (weight 1.00)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 1: 99.3 (weight 0.10)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 2: 176.9 (weight 0.10)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 3: 157.3 (weight 3.00)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 4: 89.5 (weight 1.00)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 5: 299.4 (weight 0.00)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPU Perf Index 6: 311.4 (weight 0.00)
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   CPUIndex: 109.3
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:   GPUIndex: 151.0
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display: 
+[2018.02.01-15.03.06:236][  9]LogSynthBenchmark:Display:          ... Total Time: 0.464493 sec
+[2018.02.01-15.03.07:617][ 13]LogSlate: Took 0.012753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-15.03.45:667][683]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.01-15.03.45:751][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.03.45:751][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.01-15.03.45:770][683]PIE: New page: PIE session: TestMap (1 Feb 2018 15:03:45)
+[2018.02.01-15.03.45:770][683]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.02.01-15.03.45:818][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048569s)
+[2018.02.01-15.03.45:819][683]LogAIModule: Creating AISystem for world TestMap
+[2018.02.01-15.03.45:820][683]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2018.02.01-15.03.45:820][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.050090s)
+[2018.02.01-15.03.45:856][683]LogInit: XAudio2 using 'Speakers (2- Core 1)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2018.02.01-15.03.45:867][683]LogInit: FAudioDevice initialized.
+[2018.02.01-15.03.46:358][683]LogMaterial: Missing cached shader map for material M_Baselaser, compiling. 
+[2018.02.01-15.03.46:381][683]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2018.02.01-15.03.46:663][683]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2018.02.01-15.03.46:718][683]LogTexture:Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2018.02.01-15.03.46:977][683]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2018.02.01-15.03.47:055][683]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2018.02.01-15.03.47:316][683]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2018.02.01-15.03.47:973][683]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2018.02.01-15.03.48:145][683]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.02.01-15.03.48:245][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2018.02.01-15.03.48:274][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2018.02.01-15.03.48:277][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2018.02.01-15.03.48:280][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2018.02.01-15.03.48:283][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2018.02.01-15.03.48:286][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2018.02.01-15.03.48:290][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2018.02.01-15.03.48:292][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2018.02.01-15.03.48:337][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2018.02.01-15.03.48:340][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2018.02.01-15.03.48:347][683]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2018.02.01-15.03.48:389][683]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.02.01-15.03.48:466][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2018.02.01-15.03.48:497][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/CORE_ASSETS/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2018.02.01-15.03.48:506][683]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-15.03.48:525][683]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.02.01-15.03.48
+[2018.02.01-15.03.48:525][683]LogWorld: Bringing up level for play took: 0.003141
+[2018.02.01-15.03.48:594][683]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.02.01-15.03.48:669][683]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 2.264
+[2018.02.01-15.03.48:669][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.04.10:610][852]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.04.10:650][852]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.19.33:741][135]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-15.19.34:534][208]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-15.19.35:218][208]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.02.01-15.19.36:136][208]LogSlate: Took 0.007381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.01-15.19.47:839][137]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.02.01-15.20.18:202][588]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-15.20.19:003][589]LogSlate: Took 0.009516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.01-15.21.05:845][724]LogRenderer: Reallocating scene render targets to support 1208x940 NumSamples 1 (Frame:1).
+[2018.02.01-15.30.03:350][590]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2018.02.01-15.30.24:176][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Attack' for  InputAction Attack
+[2018.02.01-15.30.24:186][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.46] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 19 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:186][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.46] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:186][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.46] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:202][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Attack' for  InputAction Attack
+[2018.02.01-15.30.24:212][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.48] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 20 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:212][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.48] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:212][949]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1727.48] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/CORE_ASSETS/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.02.01-15.30.24:446][949]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-15.31.01:304][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.01-15.31.03:986][822]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.01-15.31.04:002][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.31.04:002][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.01-15.31.04:002][822]PIE: New page: PIE session: TestMap (1 Feb 2018 15:31:04)
+[2018.02.01-15.31.04:002][822]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.02.01-15.31.04:030][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027317s)
+[2018.02.01-15.31.04:031][822]LogAIModule: Creating AISystem for world TestMap
+[2018.02.01-15.31.04:032][822]LogPlayLevel: PIE: World Init took: (0.001727s)
+[2018.02.01-15.31.04:032][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.029545s)
+[2018.02.01-15.31.04:064][822]LogInit: XAudio2 using 'Speakers (2- Core 1)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2018.02.01-15.31.04:072][822]LogInit: FAudioDevice initialized.
+[2018.02.01-15.31.04:111][822]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-15.31.04:124][822]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.02.01-15.31.04
+[2018.02.01-15.31.04:124][822]LogWorld: Bringing up level for play took: 0.008998
+[2018.02.01-15.31.04:132][822]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.273
+[2018.02.01-15.31.04:132][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.31.29:692][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.31.29:731][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.31.36:103][501]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-15.40.26:315][728]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\Silenced SMG.obj)
+[2018.02.01-15.40.26:379][728]LogFbx: Loading FBX Scene from C:\Users\Will\Downloads\Silenced SMG\Silenced SMG.obj
+[2018.02.01-15.40.26:449][728]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.01-15.40.30:666][728]LogFbx: Loading FBX Scene from C:\Users\Will\Downloads\Silenced SMG\Silenced SMG.obj
+[2018.02.01-15.40.30:742][728]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.01-15.40.30:746][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/fa_dare_follow_04_fa_dare_follow_041Mat'
+[2018.02.01-15.40.30:746][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/fa_dare_follow_04_fa_dare_follow_041Mat'
+[2018.02.01-15.40.30:765][728]LogMaterial: Missing cached shader map for material fa_dare_follow_04_fa_dare_follow_041Mat, compiling. 
+[2018.02.01-15.40.30:792][728]LogStaticMesh: Building static mesh Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041...
+[2018.02.01-15.40.30:934][728]LogStaticMesh: Built static mesh [0.14s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041.Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041
+[2018.02.01-15.40.30:947][728]LogStaticMesh:Warning: Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.01-15.40.30:973][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/flashlightMat'
+[2018.02.01-15.40.30:973][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/flashlightMat'
+[2018.02.01-15.40.30:978][728]LogMaterial: Missing cached shader map for material flashlightMat, compiling. 
+[2018.02.01-15.40.30:995][728]LogStaticMesh: Building static mesh Silenced_SMG_flashlight...
+[2018.02.01-15.40.30:998][728]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Silenced_SMG_flashlight.Silenced_SMG_flashlight
+[2018.02.01-15.40.31:006][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/left_handMat'
+[2018.02.01-15.40.31:006][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/left_handMat'
+[2018.02.01-15.40.31:010][728]LogMaterial: Missing cached shader map for material left_handMat, compiling. 
+[2018.02.01-15.40.31:027][728]LogStaticMesh: Building static mesh Silenced_SMG_left_hand...
+[2018.02.01-15.40.31:029][728]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Silenced_SMG_left_hand.Silenced_SMG_left_hand
+[2018.02.01-15.40.31:037][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/primary_triggerMat'
+[2018.02.01-15.40.31:038][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/primary_triggerMat'
+[2018.02.01-15.40.31:042][728]LogMaterial: Missing cached shader map for material primary_triggerMat, compiling. 
+[2018.02.01-15.40.31:059][728]LogStaticMesh: Building static mesh Silenced_SMG_primary_trigger...
+[2018.02.01-15.40.31:061][728]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Silenced_SMG_primary_trigger.Silenced_SMG_primary_trigger
+[2018.02.01-15.40.31:071][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/weapon_stow_anchorMat'
+[2018.02.01-15.40.31:071][728]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/weapon_stow_anchorMat'
+[2018.02.01-15.40.31:075][728]LogMaterial: Missing cached shader map for material weapon_stow_anchorMat, compiling. 
+[2018.02.01-15.40.31:093][728]LogStaticMesh: Building static mesh Silenced_SMG_weapon_stow_anchor...
+[2018.02.01-15.40.31:094][728]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Silenced_SMG_weapon_stow_anchor.Silenced_SMG_weapon_stow_anchor
+[2018.02.01-15.40.31:109][728]FBXImport:Warning: Warning Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.01-15.40.31:109][728]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.40.31:109][728]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.40.31:109][728]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.40.31:109][728]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.40.45:284][233]LogActorFactory: Actor Factory created Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041
+[2018.02.01-15.40.46:425][363]LogActorFactory: Actor Factory created Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041
+[2018.02.01-15.41.21:339][336]LogSavePackage: Save=39.66ms
+[2018.02.01-15.41.21:339][336]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/fa_dare_follow_04_fa_dare_follow_041Mat8EF83E48415CCB40567006A54F545ED9.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/fa_dare_follow_04_fa_dare_follow_041Mat.uasset'
+[2018.02.01-15.41.21:346][336]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/fa_dare_follow_04_fa_dare_follow_041Mat.uasset
+[2018.02.01-15.41.24:776][716]LogMaterial: Missing cached shader map for material fa_dare_follow_04_fa_dare_follow_041Mat, compiling. 
+[2018.02.01-15.41.24:793][716]LogMaterial: Missing cached shader map for material flashlightMat, compiling. 
+[2018.02.01-15.41.24:811][716]LogMaterial: Missing cached shader map for material left_handMat, compiling. 
+[2018.02.01-15.41.24:829][716]LogMaterial: Missing cached shader map for material primary_triggerMat, compiling. 
+[2018.02.01-15.41.24:862][716]LogMaterial: Missing cached shader map for material weapon_stow_anchorMat, compiling. 
+[2018.02.01-15.41.26:149][853]Cmd: TRANSACTION UNDO
+[2018.02.01-15.41.26:149][853]LogEditorTransaction: Undo Scale Actors
+[2018.02.01-15.41.39:749][971]Cmd: ACTOR SELECT ALL
+[2018.02.01-15.41.42:882][336]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.01-15.41.48:539][962]LogSavePackage: Save=11.65ms
+[2018.02.01-15.41.48:539][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/fa_dare_follow_04_fa_dare_follow_041MatD11642954EDD05C11E8C5E9D550FD03E.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/fa_dare_follow_04_fa_dare_follow_041Mat.uasset'
+[2018.02.01-15.41.48:541][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/fa_dare_follow_04_fa_dare_follow_041Mat.uasset
+[2018.02.01-15.41.48:568][962]LogSavePackage: Save=10.81ms
+[2018.02.01-15.41.48:568][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/flashlightMat360DB45543B7AA3E49A0078979703C27.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/flashlightMat.uasset'
+[2018.02.01-15.41.48:570][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/flashlightMat.uasset
+[2018.02.01-15.41.48:599][962]LogSavePackage: Save=11.13ms
+[2018.02.01-15.41.48:599][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/left_handMatE8F0DCED48D4F6DE51E748889EDCEAF7.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/left_handMat.uasset'
+[2018.02.01-15.41.48:601][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/left_handMat.uasset
+[2018.02.01-15.41.48:630][962]LogSavePackage: Save=10.87ms
+[2018.02.01-15.41.48:630][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/primary_triggerMat04EF609E41F96D4E1BB3E9B2D2B2F28E.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/primary_triggerMat.uasset'
+[2018.02.01-15.41.48:633][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/primary_triggerMat.uasset
+[2018.02.01-15.41.48:658][962]LogSavePackage: Save=9.87ms
+[2018.02.01-15.41.48:658][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041EEFB61384213C23CBD1A0D989A6167B3.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041.uasset'
+[2018.02.01-15.41.48:661][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041.uasset
+[2018.02.01-15.41.48:686][962]LogSavePackage: Save=9.83ms
+[2018.02.01-15.41.48:686][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_flashlight49316BB7470BA5C8B33880B068C70FB2.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_flashlight.uasset'
+[2018.02.01-15.41.48:688][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_flashlight.uasset
+[2018.02.01-15.41.48:715][962]LogSavePackage: Save=9.98ms
+[2018.02.01-15.41.48:715][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_left_handDF25412040BFB666001082BD0689A381.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_left_hand.uasset'
+[2018.02.01-15.41.48:717][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_left_hand.uasset
+[2018.02.01-15.41.48:747][962]LogSavePackage: Save=9.93ms
+[2018.02.01-15.41.48:747][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_primary_trigger65E1B9E04D568CC2A123FFB8E0A66902.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_primary_trigger.uasset'
+[2018.02.01-15.41.48:749][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_primary_trigger.uasset
+[2018.02.01-15.41.48:777][962]LogSavePackage: Save=9.52ms
+[2018.02.01-15.41.48:777][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_weapon_stow_anchor59F94F3E486CF1261F2C84BF050FB3F7.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_weapon_stow_anchor.uasset'
+[2018.02.01-15.41.48:779][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_weapon_stow_anchor.uasset
+[2018.02.01-15.41.48:807][962]LogSavePackage: Save=10.97ms
+[2018.02.01-15.41.48:807][962]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/weapon_stow_anchorMat0795D1A54EE658EADDC7079AF67310BB.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/weapon_stow_anchorMat.uasset'
+[2018.02.01-15.41.48:810][962]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/weapon_stow_anchorMat.uasset
+[2018.02.01-15.42.21:314][622]LogSavePackage: Save=326.49ms
+[2018.02.01-15.42.21:314][622]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/TestMap_Auto1DFC2040B4B6E28C454A8E88376E2E564.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto1.umap'
+[2018.02.01-15.42.21:316][622]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto1.umap
+[2018.02.01-15.42.21:318][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap' took 0.388
+[2018.02.01-15.42.21:318][622]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.388
+[2018.02.01-15.42.45:123][685]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Will\Downloads\Automag\Automag.obj)
+[2018.02.01-15.42.45:151][685]LogFbx: Loading FBX Scene from C:\Users\Will\Downloads\Automag\Automag.obj
+[2018.02.01-15.42.45:254][685]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.01-15.42.48:239][685]LogFbx: Loading FBX Scene from C:\Users\Will\Downloads\Automag\Automag.obj
+[2018.02.01-15.42.48:317][685]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.01-15.42.48:321][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default'
+[2018.02.01-15.42.48:321][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default'
+[2018.02.01-15.42.48:323][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon'
+[2018.02.01-15.42.48:324][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon'
+[2018.02.01-15.42.48:334][685]LogTexture:Display: Building textures: automag_addon (AutoDXT, 384X384)
+[2018.02.01-15.42.48:361][685]LogMaterial: Missing cached shader map for material _02___Default, compiling. 
+[2018.02.01-15.42.48:374][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default'
+[2018.02.01-15.42.48:374][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default'
+[2018.02.01-15.42.48:377][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag'
+[2018.02.01-15.42.48:391][685]LogTexture:Display: Building textures: automag (AutoDXT, 512X512)
+[2018.02.01-15.42.48:452][685]LogMaterial: Missing cached shader map for material _01___Default, compiling. 
+[2018.02.01-15.42.48:474][685]LogStaticMesh: Building static mesh Automag_analytical_specular_contribution_detail_map_overlay1...
+[2018.02.01-15.42.48:592][685]LogStaticMesh: Built static mesh [0.12s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1.Automag_analytical_specular_contribution_detail_map_overlay1
+[2018.02.01-15.42.48:601][685]LogStaticMesh:Warning: Automag_analytical_specular_contribution_detail_map_overlay1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.01-15.42.48:614][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/wire_204204204'
+[2018.02.01-15.42.48:615][685]LogLinker: Can't find file '/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/wire_204204204'
+[2018.02.01-15.42.48:619][685]LogMaterial: Missing cached shader map for material wire_204204204, compiling. 
+[2018.02.01-15.42.48:636][685]LogStaticMesh: Building static mesh Automag_bulletwater_2...
+[2018.02.01-15.42.48:638][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_bulletwater_2.Automag_bulletwater_2
+[2018.02.01-15.42.48:648][685]LogStaticMesh: Building static mesh Automag_flashlight...
+[2018.02.01-15.42.48:650][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_flashlight.Automag_flashlight
+[2018.02.01-15.42.48:660][685]LogStaticMesh: Building static mesh Automag_left_hand...
+[2018.02.01-15.42.48:661][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_left_hand.Automag_left_hand
+[2018.02.01-15.42.48:671][685]LogStaticMesh: Building static mesh Automag_order3_area_specular_ncl1_1...
+[2018.02.01-15.42.48:672][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_order3_area_specular_ncl1_1.Automag_order3_area_specular_ncl1_1
+[2018.02.01-15.42.48:681][685]LogStaticMesh: Building static mesh Automag_primary_trigger...
+[2018.02.01-15.42.48:683][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_primary_trigger.Automag_primary_trigger
+[2018.02.01-15.42.48:692][685]LogStaticMesh: Building static mesh Automag_smg_dual_pose_r1...
+[2018.02.01-15.42.48:694][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_smg_dual_pose_r1.Automag_smg_dual_pose_r1
+[2018.02.01-15.42.48:705][685]LogStaticMesh: Building static mesh Automag_smg_dual_pose_r2...
+[2018.02.01-15.42.48:707][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_smg_dual_pose_r2.Automag_smg_dual_pose_r2
+[2018.02.01-15.42.48:716][685]LogStaticMesh: Building static mesh Automag_smg_dual_pose_r3...
+[2018.02.01-15.42.48:718][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_smg_dual_pose_r3.Automag_smg_dual_pose_r3
+[2018.02.01-15.42.48:726][685]LogStaticMesh: Building static mesh Automag_weapon_stow_anchor...
+[2018.02.01-15.42.48:728][685]LogStaticMesh: Built static mesh [0.00s] /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_weapon_stow_anchor.Automag_weapon_stow_anchor
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Automag_analytical_specular_contribution_detail_map_overlay1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.48:740][685]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.01-15.42.59:063][686]LogActorFactory: Actor Factory created Automag_analytical_specular_contribution_detail_map_overlay1
+[2018.02.01-15.42.59:919][781]LogActorFactory: Actor Factory created Automag_analytical_specular_contribution_detail_map_overlay1
+[2018.02.01-15.43.42:145][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg.png)
+[2018.02.01-15.43.42:185][862]LogTexture:Display: Building textures: smg (AutoDXT, 512X512)
+[2018.02.01-15.43.42:297][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_alpha.png)
+[2018.02.01-15.43.42:309][862]LogTexture:Display: Building textures: smg_alpha (AutoDXT, 512X512)
+[2018.02.01-15.43.42:382][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_bump.png)
+[2018.02.01-15.43.42:401][862]LogTexture:Display: Building textures: smg_bump (BC5, 512X512)
+[2018.02.01-15.43.42:448][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_bump_addon.png)
+[2018.02.01-15.43.42:460][862]LogTexture:Display: Building textures: smg_bump_addon (BC5, 384X384)
+[2018.02.01-15.43.42:491][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_diffuse_addon.png)
+[2018.02.01-15.43.42:499][862]LogTexture:Display: Building textures: smg_diffuse_addon (AutoDXT, 384X384)
+[2018.02.01-15.43.42:529][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_diffuse_addon_alpha.png)
+[2018.02.01-15.43.42:537][862]LogTexture:Display: Building textures: smg_diffuse_addon_alpha (AutoDXT, 384X384)
+[2018.02.01-15.43.42:571][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Will\Downloads\Silenced SMG\smg_illum_addon.png)
+[2018.02.01-15.43.42:578][862]LogTexture:Display: Building textures: smg_illum_addon (AutoDXT, 384X384)
+[2018.02.01-15.43.49:393][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041)
+[2018.02.01-15.43.50:974][775]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.43.55:650][247]LogMaterial: Missing cached shader map for material smg_alpha_Mat, compiling. 
+[2018.02.01-15.44.00:904][773]LogMaterial: Missing cached shader map for material smg_bump_Mat, compiling. 
+[2018.02.01-15.44.18:717][453]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.18:806][453]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.18:821][453]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.18:860][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.01-15.44.20:744][575]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.01-15.44.20:744][575]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.01-15.44.20:744][575]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.01-15.44.20:744][575]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.01-15.44.25:187][901]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.25:201][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.01-15.44.25:204][901]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.25:204][901]LogMaterial:Warning: Failed to compile Material /Engine/Transient.smg_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.01-15.44.25:204][901]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.01-15.44.25:230][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.01-15.44.25:233][901]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.02.01-15.44.51:876][579]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.51:894][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.01-15.44.54:192][744]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.02.01-15.44.54:192][744]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.01-15.44.54:192][744]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.01-15.44.54:192][744]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.01-15.44.57:917][ 32]LogMaterialEditor: Saving and Compiling material smg_Mat
+[2018.02.01-15.44.58:475][ 32]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.58:513][ 32]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.58:533][ 32]LogMaterial: Missing cached shader map for material smg_Mat, compiling. 
+[2018.02.01-15.44.58:566][ 32]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy smg_Mat, compiling. 
+[2018.02.01-15.44.59:368][ 32]TextureStreamingBuild:Display: Compiling optional shaders took 0.808 seconds.
+[2018.02.01-15.45.00:671][ 32]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.01-15.45.00:721][ 32]LogSavePackage: Save=12.61ms
+[2018.02.01-15.45.00:721][ 32]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_MatA283879845819E9072F4C381BB4AE2D2.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_Mat.uasset'
+[2018.02.01-15.45.00:724][ 32]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_Mat.uasset
+[2018.02.01-15.45.00:734][ 32]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.02.01-15.45.00:734][ 32]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.01-15.45.00:734][ 32]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.01-15.45.00:734][ 32]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.01-15.45.23:154][711]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.01-15.45.23:167][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.45.23:167][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.01-15.45.23:167][711]PIE: New page: PIE session: TestMap (1 Feb 2018 15:45:23)
+[2018.02.01-15.45.23:167][711]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.02.01-15.45.23:196][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028790s)
+[2018.02.01-15.45.23:197][711]LogAIModule: Creating AISystem for world TestMap
+[2018.02.01-15.45.23:198][711]LogPlayLevel: PIE: World Init took: (0.001420s)
+[2018.02.01-15.45.23:198][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.030606s)
+[2018.02.01-15.45.23:222][711]LogInit: XAudio2 using 'Speakers (2- Core 1)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2018.02.01-15.45.23:231][711]LogInit: FAudioDevice initialized.
+[2018.02.01-15.45.23:264][711]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-15.45.23:268][711]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.02.01-15.45.23
+[2018.02.01-15.45.23:269][711]LogWorld: Bringing up level for play took: 0.002894
+[2018.02.01-15.45.23:271][711]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap 0.866
+[2018.02.01-15.45.23:271][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.45.32:660][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.45.32:707][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.47.13:800][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041)
+[2018.02.01-15.48.46:926][230]LogEditorTransaction: Undo Attach Component
+[2018.02.01-15.48.53:605][803]LogEditorTransaction: Undo Attach Component
+[2018.02.01-15.48.53:987][832]LogEditorTransaction: Undo Rename Component Variable
+[2018.02.01-15.48.55:317][961]LogEditorTransaction: Undo Attach Component
+[2018.02.01-15.49.21:379][538]BlueprintLog: New page: Compile MasterWeaponBP
+[2018.02.01-15.49.22:183][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset" SILENT=true
+[2018.02.01-15.49.22:198][594]LogSavePackage: Save=12.61ms
+[2018.02.01-15.49.22:198][594]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/MasterWeaponBPF9FDC2A54EBC99B092B0FFB4EA22E321.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset'
+[2018.02.01-15.49.22:200][594]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset
+[2018.02.01-15.51.23:372][885]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:1).
+[2018.02.01-15.52.05:051][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Automag_analytical_specular_contribution_detail_map_overlay1)
+[2018.02.01-15.52.54:115][741]LogSavePackage: Save=10.82ms
+[2018.02.01-15.52.54:115][741]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041237CD6A24EA96A5E857D4FBA802B04C7.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041.uasset'
+[2018.02.01-15.52.54:120][741]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041.uasset
+[2018.02.01-15.52.56:310][961]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.01-15.52.58:109][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041)
+[2018.02.01-15.53.41:052][ 90]BlueprintLog: New page: Compile MasterWeaponBP
+[2018.02.01-15.53.41:891][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset" SILENT=true
+[2018.02.01-15.53.41:921][130]LogSavePackage: Save=11.39ms
+[2018.02.01-15.53.41:921][130]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/MasterWeaponBPB3664A0541EF7AF87CF708B2E9341FD7.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset'
+[2018.02.01-15.53.41:924][130]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset
+[2018.02.01-15.54.17:594][755]LogSavePackage: Save=290.39ms
+[2018.02.01-15.54.17:595][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/TestMap_Auto25AFEB82F4B6930B9D1BD8ABBED27D7F6.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto2.umap'
+[2018.02.01-15.54.17:597][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto2.umap
+[2018.02.01-15.54.17:599][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap' took 0.346
+[2018.02.01-15.54.17:599][755]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.346
+[2018.02.01-15.54.17:602][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag] ([1] browsable assets)...
+[2018.02.01-15.54.17:609][755]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag.automag]
+[2018.02.01-15.54.17:609][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag]
+[2018.02.01-15.54.17:620][755]LogSavePackage: Save=9.03ms
+[2018.02.01-15.54.17:620][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Automag_Auto28B8D5748466665BC716FBF86FF7253FE.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_Auto2.uasset'
+[2018.02.01-15.54.17:622][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_Auto2.uasset
+[2018.02.01-15.54.17:622][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1] ([1] browsable assets)...
+[2018.02.01-15.54.17:635][755]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1.Automag_analytical_specular_contribution_detail_map_overlay1]
+[2018.02.01-15.54.17:635][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1]
+[2018.02.01-15.54.17:648][755]LogSavePackage: Save=11.05ms
+[2018.02.01-15.54.17:648][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Automag_analytical_specular_contribution_detail_map_overlay1_Auto2CE008EE642F8041D0C5448ABA451D999.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1_Auto2.uasset'
+[2018.02.01-15.54.17:650][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1_Auto2.uasset
+[2018.02.01-15.54.17:650][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default] ([1] browsable assets)...
+[2018.02.01-15.54.17:662][755]OBJ SavePackage:     Rendered thumbnail for [Material /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default._02___Default]
+[2018.02.01-15.54.17:662][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default]
+[2018.02.01-15.54.17:674][755]LogSavePackage: Save=11.44ms
+[2018.02.01-15.54.17:674][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/_02___Default_Auto2DD404C18419C5DC8EBBAF48833591CCA.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default_Auto2.uasset'
+[2018.02.01-15.54.17:677][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default_Auto2.uasset
+[2018.02.01-15.54.17:678][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon] ([1] browsable assets)...
+[2018.02.01-15.54.17:685][755]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon.automag_addon]
+[2018.02.01-15.54.17:685][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon]
+[2018.02.01-15.54.17:698][755]LogSavePackage: Save=11.40ms
+[2018.02.01-15.54.17:698][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/automag_addon_Auto26526DB06446A38FDDECD4697DCA9AA0D.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon_Auto2.uasset'
+[2018.02.01-15.54.17:700][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon_Auto2.uasset
+[2018.02.01-15.54.17:701][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default] ([1] browsable assets)...
+[2018.02.01-15.54.17:712][755]OBJ SavePackage:     Rendered thumbnail for [Material /Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default._01___Default]
+[2018.02.01-15.54.17:712][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default]
+[2018.02.01-15.54.17:724][755]LogSavePackage: Save=11.47ms
+[2018.02.01-15.54.17:724][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/_01___Default_Auto237C704184FA6AB8D4F56C88B52D7863D.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default_Auto2.uasset'
+[2018.02.01-15.54.17:727][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default_Auto2.uasset
+[2018.02.01-15.54.17:728][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg] ([1] browsable assets)...
+[2018.02.01-15.54.17:735][755]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg.smg]
+[2018.02.01-15.54.17:735][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg]
+[2018.02.01-15.54.17:744][755]LogSavePackage: Save=7.83ms
+[2018.02.01-15.54.17:744][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_Auto2A62933FA48F5F03A3CE875A65CD926B2.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_Auto2.uasset'
+[2018.02.01-15.54.17:746][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_Auto2.uasset
+[2018.02.01-15.54.17:747][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha] ([1] browsable assets)...
+[2018.02.01-15.54.17:753][755]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha.smg_alpha]
+[2018.02.01-15.54.17:753][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha]
+[2018.02.01-15.54.17:762][755]LogSavePackage: Save=7.66ms
+[2018.02.01-15.54.17:762][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_alpha_Auto2D525325749BFC1946316BB9687B0A81D.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha_Auto2.uasset'
+[2018.02.01-15.54.17:764][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha_Auto2.uasset
+[2018.02.01-15.54.17:765][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump] ([1] browsable assets)...
+[2018.02.01-15.54.17:773][755]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump.smg_bump]
+[2018.02.01-15.54.17:773][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump]
+[2018.02.01-15.54.17:785][755]LogSavePackage: Save=10.63ms
+[2018.02.01-15.54.17:785][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_bump_Auto256AD47194D7BC0C6AAD4A6A00FB9F069.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump_Auto2.uasset'
+[2018.02.01-15.54.17:789][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump_Auto2.uasset
+[2018.02.01-15.54.17:789][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponBP/PistolBP] ([1] browsable assets)...
+[2018.02.01-15.54.17:789][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponBP/PistolBP]
+[2018.02.01-15.54.17:804][755]LogSavePackage: Save=13.21ms
+[2018.02.01-15.54.17:804][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/PistolBP_Auto2C38A56634F8E96A69B7841B16043117A.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponBP/PistolBP_Auto2.uasset'
+[2018.02.01-15.54.17:806][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponBP/PistolBP_Auto2.uasset
+[2018.02.01-15.54.17:807][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WILLIAM_UNWIN/WeaponBP/SMGBP] ([1] browsable assets)...
+[2018.02.01-15.54.17:807][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/WILLIAM_UNWIN/WeaponBP/SMGBP]
+[2018.02.01-15.54.17:817][755]LogSavePackage: Save=9.33ms
+[2018.02.01-15.54.17:817][755]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/SMGBP_Auto241FE83264182C5DFE7645E9148001334.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponBP/SMGBP_Auto2.uasset'
+[2018.02.01-15.54.17:819][755]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/WILLIAM_UNWIN/WeaponBP/SMGBP_Auto2.uasset
+[2018.02.01-15.54.17:819][755]LogFileHelpers: Auto-saving content packages took 0.218
+[2018.02.01-15.54.43:293][401]BlueprintLog: New page: Compile PistolBP
+[2018.02.01-15.54.44:707][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/PistolBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset" SILENT=true
+[2018.02.01-15.54.44:721][551]LogSavePackage: Save=12.96ms
+[2018.02.01-15.54.44:721][551]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/PistolBPBA22154643ED48D3FFA2929C28EDE66C.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset'
+[2018.02.01-15.54.44:724][551]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset
+[2018.02.01-15.54.58:905][ 82]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-15.55.47:488][350]BlueprintLog: New page: Compile SMGBP
+[2018.02.01-15.55.48:299][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/SMGBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset" SILENT=true
+[2018.02.01-15.55.48:313][400]LogSavePackage: Save=12.17ms
+[2018.02.01-15.55.48:313][400]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/SMGBP9FAD0DED45E2B0E97FFA208DBA0FB133.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset'
+[2018.02.01-15.55.48:318][400]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset
+[2018.02.01-15.56.37:708][935]BlueprintLog: New page: Compile PistolBP
+[2018.02.01-15.56.38:583][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/PistolBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset" SILENT=true
+[2018.02.01-15.56.38:597][992]LogSavePackage: Save=12.06ms
+[2018.02.01-15.56.38:597][992]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/PistolBP57B3B39C4A015B37CCA27396EB303D84.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset'
+[2018.02.01-15.56.38:600][992]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset
+[2018.02.01-15.56.43:947][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silenced_SMG_fa_dare_follow_04_fa_dare_follow_041)
+[2018.02.01-15.56.44:199][366]Cmd: DELETE
+[2018.02.01-15.56.44:199][366]Cmd: ACTOR DELETE
+[2018.02.01-15.56.44:224][366]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.01-15.56.44:237][366]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.02.01-15.56.45:022][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Automag_analytical_specular_contribution_detail_map_overlay1)
+[2018.02.01-15.56.45:134][468]Cmd: DELETE
+[2018.02.01-15.56.45:134][468]Cmd: ACTOR DELETE
+[2018.02.01-15.56.45:134][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.01-15.56.45:148][468]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.02.01-15.56.55:456][665]LogEditorViewport: Clicking on Actor (LMB): PistolBP_C (PistolBP)
+[2018.02.01-15.58.02:009][653]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.01-15.58.02:025][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.58.02:025][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.01-15.58.02:025][653]PIE: New page: PIE session: TestMap (1 Feb 2018 15:58:02)
+[2018.02.01-15.58.02:025][653]LogPlayLevel: Creating play world package: /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap
+[2018.02.01-15.58.02:056][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030876s)
+[2018.02.01-15.58.02:057][653]LogAIModule: Creating AISystem for world TestMap
+[2018.02.01-15.58.02:057][653]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2018.02.01-15.58.02:057][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap to /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap (0.032585s)
+[2018.02.01-15.58.02:087][653]LogInit: XAudio2 using 'Speakers (2- Core 1)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2018.02.01-15.58.02:097][653]LogInit: FAudioDevice initialized.
+[2018.02.01-15.58.02:132][653]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-15.58.02:136][653]LogWorld: Bringing World /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.02.01-15.58.02
+[2018.02.01-15.58.02:137][653]LogWorld: Bringing up level for play took: 0.003587
+[2018.02.01-15.58.02:139][653]PIE: Info Play in editor start time for /Game/CORE_ASSETS/ThirdPersonBP/Maps/UEDPIE_0_TestMap -0.265
+[2018.02.01-15.58.02:140][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.58.07:688][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-15.58.07:729][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.02.01-16.04.30:051][796]LogSavePackage: Save=302.99ms
+[2018.02.01-16.04.30:051][796]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/TestMap_Auto38A4CBA9745D2CBD677194FB8BD6D242A.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto3.umap'
+[2018.02.01-16.04.30:055][796]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Autosaves/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap_Auto3.umap
+[2018.02.01-16.04.30:056][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CORE_ASSETS/ThirdPersonBP/Maps/TestMap' took 0.352
+[2018.02.01-16.04.30:056][796]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.352
+[2018.02.01-16.04.52:509][ 91]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-16.05.51:947][ 99]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-16.10.26:308][711]BlueprintLog: New page: Compile Team5_Character
+[2018.02.01-16.11.00:024][839]BlueprintLog: New page: Compile MasterWeaponBP
+[2018.02.01-16.12.10:583][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.01-16.12.36:582][926]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.02.01-16.12.38:613][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE_ASSETS/Team5_Character" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/Team5_Character.uasset" SILENT=true
+[2018.02.01-16.12.38:891][926]LogSavePackage: Save=262.53ms
+[2018.02.01-16.12.38:891][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Team5_CharacterC13368344711534BEED273AA01D29CDF.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/Team5_Character.uasset'
+[2018.02.01-16.12.38:896][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/Team5_Character.uasset
+[2018.02.01-16.12.39:322][926]LogSavePackage: Save=295.93ms
+[2018.02.01-16.12.39:322][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/TestMap0D75A09B4AA07C70ECFA528A9F4EC162.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap'
+[2018.02.01-16.12.39:326][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/CORE_ASSETS/ThirdPersonBP/Maps/TestMap.umap
+[2018.02.01-16.12.39:358][926]LogFileHelpers: Saving map 'TestMap' took 0.457
+[2018.02.01-16.12.39:361][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset" SILENT=true
+[2018.02.01-16.12.39:383][926]LogSavePackage: Save=10.64ms
+[2018.02.01-16.12.39:383][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/MasterWeaponBP67F6B2D34E243C9B3CA3FAB7EBABB281.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset'
+[2018.02.01-16.12.39:386][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/MasterWeaponBP.uasset
+[2018.02.01-16.12.39:390][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/PistolBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset" SILENT=true
+[2018.02.01-16.12.39:413][926]LogSavePackage: Save=12.47ms
+[2018.02.01-16.12.39:414][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/PistolBP910B80D14E3B3A9AE5BDF69FE5A14327.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset'
+[2018.02.01-16.12.39:417][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/PistolBP.uasset
+[2018.02.01-16.12.39:422][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponBP/SMGBP" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset" SILENT=true
+[2018.02.01-16.12.39:441][926]LogSavePackage: Save=8.21ms
+[2018.02.01-16.12.39:441][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/SMGBP74B5971F40BEDB38B0908DA58B954345.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset'
+[2018.02.01-16.12.39:445][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponBP/SMGBP.uasset
+[2018.02.01-16.12.39:486][926]LogSavePackage: Save=11.53ms
+[2018.02.01-16.12.39:486][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/_01___DefaultA14BCB5E4E8F77EE5938058320506043.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default.uasset'
+[2018.02.01-16.12.39:490][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_01___Default.uasset
+[2018.02.01-16.12.39:530][926]LogSavePackage: Save=11.37ms
+[2018.02.01-16.12.39:530][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/_02___Default57BD76C2484C65949DA47BB643E09A34.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default.uasset'
+[2018.02.01-16.12.39:534][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/_02___Default.uasset
+[2018.02.01-16.12.39:583][926]LogSavePackage: Save=33.61ms
+[2018.02.01-16.12.39:583][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/AutomagB5D0F52249ABCC46F359189DFEC24E28.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag.uasset'
+[2018.02.01-16.12.39:586][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag.uasset
+[2018.02.01-16.12.39:625][926]LogSavePackage: Save=25.85ms
+[2018.02.01-16.12.39:625][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/automag_addon1E1B091741523E246545ADB7F19FB1B4.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon.uasset'
+[2018.02.01-16.12.39:630][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/automag_addon.uasset
+[2018.02.01-16.12.39:671][926]LogSavePackage: Save=10.86ms
+[2018.02.01-16.12.39:671][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Automag_analytical_specular_contribution_detail_map_overlay12417704142B8EF963A85FD98E551BA39.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1.uasset'
+[2018.02.01-16.12.39:674][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/Pistol/Automag_analytical_specular_contribution_detail_map_overlay1.uasset
+[2018.02.01-16.12.39:686][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg" FILE="C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg.uasset" SILENT=true
+[2018.02.01-16.12.39:715][926]LogSavePackage: Save=27.97ms
+[2018.02.01-16.12.39:715][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg006F794547F778D42F1B2BB7FAAF16C7.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg.uasset'
+[2018.02.01-16.12.39:719][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg.uasset
+[2018.02.01-16.12.39:762][926]LogSavePackage: Save=30.15ms
+[2018.02.01-16.12.39:762][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_alpha944D33354493D50CAF31839812167065.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha.uasset'
+[2018.02.01-16.12.39:765][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_alpha.uasset
+[2018.02.01-16.12.39:817][926]LogSavePackage: Save=37.34ms
+[2018.02.01-16.12.39:817][926]LogSavePackage: Moving 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/smg_bump88C87188411577F431528DB598169566.tmp' to 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump.uasset'
+[2018.02.01-16.12.39:821][926]LogSavePackage:Display: Finished SavePackage C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/WILLIAM_UNWIN/WeaponPlaceholders/SMG/smg_bump.uasset
+[2018.02.01-16.12.39:901][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.01-16.12.40:198][927]Cmd: QUIT_EDITOR
+[2018.02.01-16.12.41:075][927]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.01-16.12.41:092][927]LogExit: Preparing to exit.
+[2018.02.01-16.12.42:270][927]LogExit: Editor shut down
+[2018.02.01-16.12.42:280][927]LogExit: Transaction tracking system shut down
+[2018.02.01-16.12.42:408][927]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.01-16.12.42:408][927]LogExit: Object subsystem successfully closed.
+[2018.02.01-16.12.42:429][927]LogD3D11RHI: Shutdown
+[2018.02.01-16.12.42:429][927]LogD3D11RHI: CleanupD3DDevice
+[2018.02.01-16.12.42:575][927]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.01-16.12.42:596][927]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (538)
+[2018.02.01-16.12.42:596][927]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2018.02.01-16.12.42:596][927]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (534)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.01-16.12.42:597][927]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.01-16.12.42:597][927]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.01-16.12.42:598][927]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.01-16.12.42:598][927]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.01-16.12.42:598][927]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.01-16.12.42:598][927]LogDirectoryWatcher: A directory notification for 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/Collections/' was aborted.
+[2018.02.01-16.12.42:598][927]LogDirectoryWatcher: A directory notification for 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/Developers/Will/Collections/' was aborted.
+[2018.02.01-16.12.42:598][927]LogDirectoryWatcher: A directory notification for 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Saved/Collections/' was aborted.
+[2018.02.01-16.12.42:599][927]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.01-16.12.42:599][927]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.01-16.12.42:599][927]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.01-16.12.42:607][927]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.01-16.12.42:608][927]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.01-16.12.42:609][927]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.01-16.12.42:610][927]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.01-16.12.42:610][927]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.01-16.12.42:610][927]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.01-16.12.43:110][927]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.01-16.12.43:111][927]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.01-16.12.43:166][927]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.01-16.12.43:173][927]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.01-16.12.43:174][927]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.01-16.12.43:175][927]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.01-16.12.43:411][927]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.01-16.12.43:412][927]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.01-16.12.43:413][927]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.01-16.12.43:514][927]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.01-16.12.43:614][927]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.01-16.12.43:615][927]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.01-16.12.43:615][927]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.01-16.12.43:615][927]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.01-16.12.43:615][927]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.01-16.12.43:616][927]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.01-16.12.43:616][927]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.01-16.12.43:617][927]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.01-16.12.43:621][927]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.01-16.12.43:622][927]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.01-16.12.43:722][927]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.01-16.12.43:722][927]LogDirectoryWatcher: A directory notification for 'C:/Users/Will/Documents/GitHub/JMan_Team5/Team5/Content/' was aborted.
+[2018.02.01-16.12.43:723][927]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.01-16.12.43:723][927]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.01-16.12.43:726][927]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.01-16.12.43:727][927]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.01-16.12.43:780][927]LogDerivedDataCache: Shutdown
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.01-16.12.43:780][927]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.01-16.12.43:781][927]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.01-16.12.43:781][927]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.01-16.12.43:781][927]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.01-16.12.43:781][927]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B227229A0-4434-7042-2ACF-D2B333A66F67%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=56502864460e878d1a13f881e2b22d60%7C2af7b17eb54a4677979ccdb31c60c5da%7Cf1749676-6eb3-415c-801e-2ab03effc9dc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.01-16.12.43:786][927]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.01-16.12.43:788][927]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.01-16.12.43:789][927]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.01-16.12.43:790][927]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.01-16.12.43:792][927]LogExit: Exiting.
+[2018.02.01-16.12.43:804][927]Log file closed, 02/01/18 16:12:43
