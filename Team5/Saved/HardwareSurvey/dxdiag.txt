@@ -1,10 +1,10 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 2/5/2018, 16:47:50
-             Machine name: TU45375
-               Machine Id: {D9A711F6-A6F9-42DE-BD19-65A11647F1E3}
-         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171231-1800)
+      Time of this report: 2/7/2018, 15:58:21
+             Machine name: TU45338
+               Machine Id: {2041C2E2-2BD9-400B-99D1-2AAB3CC0A31E}
+         Operating System: Windows 10 Enterprise 2016 LTSB 64-bit (10.0, Build 14393) (14393.rs1_release.171129-2100)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
              System Model: HP Z640 Workstation
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 7112MB used, 30435MB available
+                Page File: 15153MB used, 22395MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -83,7 +83,7 @@ Hybrid Graphics GPU: Not Supported
           Device ID: 0x17C8
           SubSys ID: 0x139619DA
         Revision ID: 0x00A1
- Driver Strong Name: oem28.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
+ Driver Strong Name: oem27.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
      Rank Of Driver: 00D12001
         Video Accel: 
         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -175,7 +175,7 @@ Hybrid Graphics GPU: Not Supported
           Device ID: 0x17C8
           SubSys ID: 0x139619DA
         Revision ID: 0x00A1
- Driver Strong Name: oem28.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
+ Driver Strong Name: oem27.inf:0f066de3672d1ed2:Section084:21.21.13.7653:pci\ven_10de&dev_17c8
      Rank Of Driver: 00D12001
         Video Accel: 
         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -260,6 +260,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: Stereo Mix (Realtek High Definition Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7427 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 4/6/2015 13:36:26, 4372952 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -279,6 +289,12 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
+      Device Name: HP Elite USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x03F0, 0x034A
+        FF Driver: n/a
+
       Device Name: Wacom Tablet
          Attached: 1
     Controller ID: 0x0
@@ -291,28 +307,22 @@ Vendor/Product ID: 0x056A, 0x0303
 Vendor/Product ID: 0x03F0, 0x034A
         FF Driver: n/a
 
-      Device Name: HP Elite USB Keyboard
+      Device Name: Wacom Tablet
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x03F0, 0x034A
+Vendor/Product ID: 0x056A, 0x0303
+        FF Driver: n/a
+
+      Device Name: Wacom Tablet
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x056A, 0x0303
         FF Driver: n/a
 
       Device Name: Controller (XBOX 360 For Windows)
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x045E, 0x028E
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0303
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -326,25 +336,6 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/16/2016 11:41:55, 535904 bytes
 | 
-+-+ Wacom Tablet
-| | Vendor/Product ID: 0x056A, 0x0303
-| | Location: Port_#0004.Hub_#0003
-| | Matching Device ID: USB\VID_056A&PID_0303
-| | Upper Filters: mshidkmdf
-| | Service: WacHidRouterPro
-| | Driver: wachidrouter.sys, 4/28/2017 23:21:30, 122512 bytes
-| | Driver: wdfcoinstaller01011.dll, 4/28/2017 23:21:31, 1804688 bytes
-| | 
-| +-+ HID-Compliant Mouse
-| | | Vendor/Product ID: 0x056A, 0x0303
-| | | Matching Device ID: HID\VID_056A&PID_0303&Col01
-| | | Upper Filters: wacomrouterfilter
-| | | Service: mouhid
-| | | Driver: wacomrouterfilter.sys, 4/11/2017 18:23:37, 24040 bytes
-| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
-| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
-| | | Driver: wdfcoinstaller01009.dll, 12/11/2012 22:12:00, 1721576 bytes
-| | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x034A
 | | Location: Port_#0011.Hub_#0003
@@ -369,7 +360,7 @@ USB Devices
 | | | | Driver: kbdclass.sys, 7/16/2016 11:41:54, 62304 bytes
 | | 
 +-+ USB Input Device
-| | Vendor/Product ID: 0x03F0, 0x134A
+| | Vendor/Product ID: 0x03F0, 0x094A
 | | Location: Port_#0012.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
@@ -378,11 +369,30 @@ USB Devices
 | | Driver: hidparse.sys, 8/6/2016 03:46:37, 40960 bytes
 | | 
 | +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x03F0, 0x134A
+| | | Vendor/Product ID: 0x03F0, 0x094A
 | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | Service: mouhid
 | | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
 | | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
+| | 
++-+ Wacom Tablet
+| | Vendor/Product ID: 0x056A, 0x0303
+| | Location: Port_#0005.Hub_#0003
+| | Matching Device ID: USB\VID_056A&PID_0303
+| | Upper Filters: mshidkmdf
+| | Service: WacHidRouterPro
+| | Driver: wachidrouter.sys, 4/28/2017 23:21:30, 122512 bytes
+| | Driver: wdfcoinstaller01011.dll, 4/28/2017 23:21:31, 1804688 bytes
+| | 
+| +-+ HID-Compliant Mouse
+| | | Vendor/Product ID: 0x056A, 0x0303
+| | | Matching Device ID: HID\VID_056A&PID_0303&Col01
+| | | Upper Filters: wacomrouterfilter
+| | | Service: mouhid
+| | | Driver: wacomrouterfilter.sys, 4/11/2017 18:23:37, 24040 bytes
+| | | Driver: mouhid.sys, 7/16/2016 11:41:54, 32256 bytes
+| | | Driver: mouclass.sys, 7/16/2016 11:41:54, 59232 bytes
+| | | Driver: wdfcoinstaller01009.dll, 12/11/2012 22:12:00, 1721576 bytes
 
 ----------------
 Gameport Devices
@@ -396,16 +406,22 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 152.0 GB
+ Free Space: 100.5 GB
 Total Space: 487.9 GB
 File System: NTFS
       Model: MTFDDAK512MBF-1AN1ZABHA
 
       Drive: D:
- Free Space: 1906.6 GB
+ Free Space: 1906.8 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM001-1ER164
+
+      Drive: F:
+ Free Space: 870.4 GB
+Total Space: 953.9 GB
+File System: NTFS
+      Model: Seagate Expansion SCSI Disk Device
 
       Drive: E:
       Model: hp BDRW   UJ272
@@ -927,6 +943,9 @@ CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.14393.1066
 AC-3 ACM Codec,0x00200000,1,1,quartz.dll,10.00.14393.1066
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.14393.1066
 
+Audio Capture Sources:
+Stereo Mix (Realtek High Definition Audio),0x00200000,0,0,qcap.dll,10.00.14393.0000
+
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.1715
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1715
@@ -1381,17 +1400,17 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket 129429132620, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
+P1: Photoshop.exe
+P2: 18.1.1.252
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
 P6: 
 P7: 
 P8: 
@@ -1400,17 +1419,17 @@ P10:
 
 
 +++ WER1 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket 129233632700, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
+P1: 7zG.exe
+P2: 16.4.0.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
 P6: 
 P7: 
 P8: 
@@ -1419,82 +1438,63 @@ P10:
 
 
 +++ WER2 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket 129531637197, type 5
+Event Name: CLR20r3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
-P9: 
+P1: AppsAnywhereUpdater.exe
+P2: 1.2.0.0
+P3: 5970af24
+P4: AppsAnywhereUpdater
+P5: 1.2.0.0
+P6: 5970af24
+P7: 78
+P8: 0
+P9: System.NullReferenceException
 P10: 
 
 
 +++ WER3 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket 120833403318, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
+P1: Substance Painter 2.exe
+P2: 2.3.0.0
+P3: 57dad28f
+P4: ntdll.dll
+P5: 10.0.14393.1715
+P6: 59b0d03e
+P7: c0000005
+P8: 000000000002f7fb
 P9: 
 P10: 
 
 
 +++ WER4 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket , type 0
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
+P1: Substance Painter 2.exe
+P2: 2.3.0.0
+P3: 57dad28f
+P4: ntdll.dll
+P5: 10.0.14393.1715
+P6: 59b0d03e
+P7: c0000005
+P8: 000000000002f7fb
 P9: 
 P10: 
 
 
 +++ WER5 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER6 +++:
 Fault bucket , type 0
 Event Name: PnPRequestAdditionalSoftware
 Response: Not available
@@ -1502,7 +1502,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_056A&PID_0315&REV_0100&Col05
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1513,7 +1513,7 @@ P9:
 P10: 
 
 
-+++ WER7 +++:
++++ WER6 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1521,7 +1521,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_056A&PID_0315&REV_0100&Col05
+P2: HID\VID_1E7D&PID_2C2E&REV_0035&Col02
 P3: 
 P4: 
 P5: 
@@ -1532,7 +1532,7 @@ P9:
 P10: 
 
 
-+++ WER8 +++:
++++ WER7 +++:
 Fault bucket , type 0
 Event Name: PnPRequestAdditionalSoftware
 Response: Not available
@@ -1540,7 +1540,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_056A&PID_0315&REV_0100&Col04
+P2: USB\VID_1E7D&PID_2C2E&REV_0035
 P3: 10.0.0.0
 P4: 0409
 P5: input.inf
@@ -1551,7 +1551,7 @@ P9:
 P10: 
 
 
-+++ WER9 +++:
++++ WER8 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1559,8 +1559,27 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_056A&PID_0315&REV_0100&Col04
+P2: USB\VID_1E7D&PID_2C2E&REV_0035
 P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER9 +++:
+Fault bucket 129476046145, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: maya.exe
+P2: 17.4.2743.0
+P3: 10.0.14393.2.0.0
 P4: 
 P5: 
 P6: 
